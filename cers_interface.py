@@ -73,6 +73,7 @@ class Interface:
             search,
             filterStatuses=ACTIVE_STATUSES,
             filterFunction=office_is_legislative,
+            excludeCandidates=[18322]  # Fake Coffee J candidate for testing
         )
 
     def list_state_2022_state_candidates(self):
