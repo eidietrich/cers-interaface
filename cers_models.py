@@ -62,11 +62,16 @@ class CandidateList:
 
     def __init__(self, search,
                  fetchReports=True, fetchFullReports=True,
-                 filterStatuses=False, excludeCandidates=[],
+                 filterStatuses=False,
+                 filterFunction=None,
+                 excludeCandidates=[],
                  cachePath='cache/candidates',
                  checkCache=True, writeCache=True,
                  ):
         candidate_list = self._fetch_candidate_list(search)
+        if callable(filterFunction):
+            candidate_list = [c for c in candidate_list if filterFunction(c)]
+
         if filterStatuses:
             candidate_list = [
                 c for c in candidate_list if c['candidateStatusDescr'] in filterStatuses]
@@ -556,6 +561,18 @@ class Report:
         self.expenditures = expenditures
         self.contributions = pd.DataFrame()
         self.unitemized_contributions = 0
+
+        if (len(expenditures) > 0):
+            pri_exp = expenditures[expenditures['Election Type']
+                                   == 'Primary']['Amount'].sum()
+            gen_exp = expenditures[expenditures['Election Type']
+                                   == 'General']['Amount'].sum()
+            total = expenditures['Amount'].sum()
+        else:
+            pri_exp = 0
+            gen_exp = 0
+            total = 0
+
         self.summary = {
             'report_start_date': self.start_date,
             'report_end_date': self.end_date,
@@ -565,9 +582,9 @@ class Report:
                 "total": 0
             },
             'Expenditures': {
-                "primary": expenditures[expenditures['Election Type'] == 'Primary']['Amount'].sum(),
-                "general": expenditures[expenditures['Election Type'] == 'General']['Amount'].sum(),
-                "total": expenditures['Amount'].sum()
+                "primary": pri_exp,
+                "general": gen_exp,
+                "total": total,
             }
         }
 
@@ -754,8 +771,12 @@ class Report:
         addressLn1 = (', ').join(address[0:len(address)-2])
         city = address[-2].strip()
         state_zip = address[-1].split(' ')
+        print(address, state_zip)
         state = state_zip[0]
-        zip_code = state_zip[1]
+        if (len(state_zip) > 1):
+            zip_code = state_zip[1]
+        else:
+            zip_code = ''
 
         # hacky Testing
         # if (len(address) != 3):

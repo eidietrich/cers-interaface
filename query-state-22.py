@@ -2,7 +2,7 @@
 
 """Check finance records from CERS for 2022 PSC and SupCo candidates
 
-run as: python3 query-state-2022.py
+run as: python3 query-state-22.py
 """
 
 from cers_interface import Interface

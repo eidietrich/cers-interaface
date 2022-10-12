@@ -30,11 +30,52 @@ class Interface:
         search = CANDIDATE_SEARCH_DEFAULT.copy()
         search['electionYear'] = election_year
         search['officeCode'] = office_code
+        return CandidateList(search, filterStatuses=ACTIVE_STATUSES,)
+
+    def get_candidate_by_name(self, election_year, first, last):
+        search = CANDIDATE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = election_year
+        search['lastName'] = last
+        search['firstName'] = first
         return CandidateList(search, filterStatuses=ACTIVE_STATUSES)
 
     # Recipes
 
-    def list_state_2022_candidates(self):
+    def list_2022_legislative_candidates(self):
+        """Prints lists of legislative candidates running in 2022 w/out fetching reports"""
+
+        def office_is_legislative(candidate):
+            return 'House District' in candidate['officeTitle'] or 'Senate District' in candidate['officeTitle']
+
+        search = CANDIDATE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = '2022'
+        search['candidateTypeCode'] = 'SD'
+        candidates = CandidateList(
+            search,
+            fetchReports=False,  # avoids costly scraping operation
+            filterStatuses=ACTIVE_STATUSES,
+            filterFunction=office_is_legislative,
+        )
+        print('## 2022 legislative')
+        print(candidates.list_candidates())
+        print('Num:', len(candidates.list_candidates()))
+
+    def list_2022_legislative_candidates(self):
+        """Returns data for legislative candidates running in 2022"""
+
+        def office_is_legislative(candidate):
+            return 'House District' in candidate['officeTitle'] or 'Senate District' in candidate['officeTitle']
+
+        search = CANDIDATE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = '2022'
+        search['candidateTypeCode'] = 'SD'
+        return CandidateList(
+            search,
+            filterStatuses=ACTIVE_STATUSES,
+            filterFunction=office_is_legislative,
+        )
+
+    def list_state_2022_state_candidates(self):
         """Prints lists of state (i.e. PSC and SupCo) candidates running in 2022 w/out fetching reports"""
 
         OFFICES_ON_BALLOT = [
@@ -47,7 +88,7 @@ class Interface:
         for office in OFFICES_ON_BALLOT:
             search = CANDIDATE_SEARCH_DEFAULT.copy()
             search['electionYear'] = '2022'
-            search['officeCode'] = office
+            search['candidateTypeCode'] = office
             candidates = CandidateList(
                 search,
                 fetchReports=False,  # avoids costly scraping operation
