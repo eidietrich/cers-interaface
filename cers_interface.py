@@ -5,7 +5,8 @@ Components
 - Interface - List of queries (e.g. all statewide 2020 candidates)
 """
 
-from cers_models import CandidateList
+from cers_candidate_models import CandidateList
+from cers_committee_models import CommitteeList
 
 CANDIDATE_SEARCH_DEFAULT = {
     'lastName': '',
@@ -16,6 +17,25 @@ CANDIDATE_SEARCH_DEFAULT = {
     'officeCode': '',  # NOT officeTitle
     'countyCode': '',
     'partyCode': '',
+}
+
+COMMITTEE_SEARCH_DEFAULT = {
+    'independentExpendSearch': 'false',
+    'electioneeringCommSearch': 'false',
+    'financialSearchType': 'EXPEND',
+    'expendSearchTypeCode': 'COMMITTEE',
+    'expendCanLastName': '',
+    'expendCanFirstName': '',
+    'expendCommitteeName': '',
+    'payeeLastName': '',
+    'payeeFirstName': '',
+    'expendPartyCode': '',
+    'expendCandidateTypeCode': '',
+    'expendOfficeCode': '',
+    'expendAmountRangeCode': '',
+    'electionYear': '',
+    'expendSearchFromDate': '',
+    'expendSearchToDate': '',
 }
 
 ACTIVE_STATUSES = ['Active', 'Reopened', 'Amended']
@@ -39,7 +59,32 @@ class Interface:
         search['firstName'] = first
         return CandidateList(search, filterStatuses=ACTIVE_STATUSES)
 
+    def get_committee_by_name(self, name):
+        search = COMMITTEE_SEARCH_DEFAULT.copy()
+        search['expendCommitteeName'] = name
+        return CommitteeList(search)
+
     # Recipes
+
+    def list_2022_committees_with_spending(self):
+        """Prints list of committees spending in 2022"""
+        search = COMMITTEE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = '2022'
+        committees = CommitteeList(
+            search,
+            fetchReports=False,  # avoids costly report scrape
+        )
+        print(committees.list_committees())
+        print('Num:', len(committees.list_committees()))
+
+    def get_2022_committees_with_spending(self):
+        """Returns list of committees spending in 2022"""
+        search = COMMITTEE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = '2022'
+        return CommitteeList(
+            search,
+            excludeCommittees=[1895]  # ActBlue
+        )
 
     def list_2022_legislative_candidates(self):
         """Prints lists of legislative candidates running in 2022 w/out fetching reports"""
@@ -60,7 +105,7 @@ class Interface:
         print(candidates.list_candidates())
         print('Num:', len(candidates.list_candidates()))
 
-    def list_2022_legislative_candidates(self):
+    def get_2022_legislative_candidates(self):
         """Returns data for legislative candidates running in 2022"""
 
         def office_is_legislative(candidate):

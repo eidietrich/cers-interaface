@@ -13,7 +13,7 @@ print('# Fetching Legislative candidates')
 
 # cers.list_2022_legislative_candidates()
 
-legislative = cers.list_2022_legislative_candidates()
+legislative = cers.get_2022_legislative_candidates()
 legislative.export('raw/2022/leg')
 
 # cers.get_candidate_by_name('2022', '', 'Walsh')  # For testing
