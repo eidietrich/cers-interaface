@@ -113,7 +113,9 @@ class CommitteeList:
             'electionYear': d['electionYear'],
             'committeeStatusDescr': d['committeeStatusDescr'],
             'createdDate': d['createdDate'],
-            # More available here - officer list, bank info, etc.
+
+            # Extra information
+            'type': d['committeeTypeDescr'],
         }, full))
         return cleaned
 

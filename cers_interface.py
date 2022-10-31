@@ -59,10 +59,11 @@ class Interface:
         search['firstName'] = first
         return CandidateList(search, filterStatuses=ACTIVE_STATUSES)
 
-    def get_committee_by_name(self, name):
+    def get_committee_by_name(self, name, **kwargs):
         search = COMMITTEE_SEARCH_DEFAULT.copy()
         search['expendCommitteeName'] = name
-        return CommitteeList(search)
+        return CommitteeList(search,
+                             fetchReports=kwargs['fetchReports'])
 
     # Recipes
 
@@ -74,8 +75,8 @@ class Interface:
             search,
             fetchReports=False,  # avoids costly report scrape
         )
-        print(committees.list_committees())
-        print('Num:', len(committees.list_committees()))
+        # print(committees.list_committees())
+        # print('Num:', len(committees.list_committees()))
 
     def get_2022_committees_with_spending(self):
         """Returns list of committees spending in 2022"""

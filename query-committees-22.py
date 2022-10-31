@@ -11,8 +11,9 @@ cers = Interface()
 
 print('# Fetching committees')
 
+# cers.list_2022_committees_with_spending()
 
-# committees = cers.get_committee_by_name('Carbon County Republican Women')
+# committees = cers.get_committee_by_name('Republican', fetchReports=False)
 # Excludes ActBlue, which breaks script
 committees = cers.get_2022_committees_with_spending()
 committees.export('raw/committees')

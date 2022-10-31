@@ -100,6 +100,8 @@ class Report:
                 if (self.type != 'C5'):
                     print('Wrong report type')
                 self._get_c5_data_from_manual_cache()
+            elif self.type == 'C4':
+                self._get_c4_data_from_scrape()
             elif self.type == 'C5':
                 self._get_c5_data_from_scrape()
             elif self.type == 'C7':
