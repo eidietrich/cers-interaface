@@ -2,12 +2,11 @@
 Models for data pulled from Montana COPP Campaign Electronic Reporting System
 
 Components
-- Interface - List of queries (e.g. all statewide 2020 candidates)
 - CandidateList - List of particular types of candidates (e.g. statewide)
 - Candidate - Individual candidates
-- Report - Individual financial reports (C-5s)
+- Report - Individual financial reports (e.g., C-5s)
 
-Design philosiphy: Front-load all slow API calls in object initialization.
+Design philosophy: Front-load all slow API calls in object initialization.
 Should provide more flexibility with avoiding duplicate scraping.
 
 Ref: https://blog.hartleybrody.com/web-scraping-cheat-sheet/

@@ -4,7 +4,7 @@ Models for data pulled from Montana COPP Campaign Electronic Reporting System
 Components
 - CommitteeList - List of particular types of committees
 - Committee - Individual committees
-- Report - Individual financial reports (C-5s)
+- Report - Individual financial reports
 
 Design philosiphy: Front-load all slow API calls in object initialization.
 Should provide more flexibility with avoiding duplicate scraping.
