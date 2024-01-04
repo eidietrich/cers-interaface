@@ -67,6 +67,36 @@ class Interface:
 
     # Recipes
 
+    def list_committees_with_spending(self, cycle):
+        """Prints list of committees spending in 2022
+        cycle="2022" or "2024"
+        """
+        search = COMMITTEE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = cycle
+        committees = CommitteeList(
+            search,
+            fetchReports=False,  # avoids costly report scrape
+        )
+        print('Num:', len(committees.list_committees()))
+        print(committees.list_committees())
+
+    def get_committees_with_spending(self, cycle, excludeCommittees=[1895]):
+        """Returns list of committees with reported spending in given election cycle
+        cycle="2022" or "2024"
+        excludeCommittees= list of commitees to exclude
+            ActBlue (1895) is excluded by default because it's too big for the state system
+        """
+        search = COMMITTEE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = cycle
+        print(f'Fetching committees for {cycle} cycle')
+        print('Note: Unless otherwise specified, this skips ActBlue')
+        return CommitteeList(
+            search,
+            excludeCommittees=excludeCommittees
+        )
+
+    # OLD FOR 2022 cycle
+
     def list_2022_committees_with_spending(self):
         """Prints list of committees spending in 2022"""
         search = COMMITTEE_SEARCH_DEFAULT.copy()
@@ -75,8 +105,7 @@ class Interface:
             search,
             fetchReports=False,  # avoids costly report scrape
         )
-        # print(committees.list_committees())
-        # print('Num:', len(committees.list_committees()))
+        
 
     def get_2022_committees_with_spending(self):
         """Returns list of committees spending in 2022"""

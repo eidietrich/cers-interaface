@@ -157,7 +157,7 @@ class Report:
         self.summary = self._fetch_report_summary()
         if self.fetchFullReports:
             self.contributions = pd.read_csv(
-                file, sep='|', error_bad_lines=False, warn_bad_lines=True, index_col=False)
+                file, sep='|', on_bad_lines='warn', index_col=False)
             self.expenditures = self._fetch_expenditures_schedule()
             # TODO - move this to cleaning step?
             self.unitemized_contributions = self._calc_unitemized_contributions()
@@ -483,7 +483,7 @@ class Report:
         if (text == ''):
             return pd.DataFrame()
         parsed = pd.read_csv(StringIO(
-            text), sep='|', error_bad_lines=False, warn_bad_lines=True, index_col=False)
+            text), sep='|', on_bad_lines='warn', index_col=False)
         return parsed
 
     def _parse_html_get_row(self, table, label):

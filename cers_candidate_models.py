@@ -123,7 +123,7 @@ class CandidateList:
 
         df = pd.DataFrame()
         for candidate in self.candidates:
-            df = df.append(candidate.contributions)
+            df = pd.concat([df, candidate.contributions])
         return df
 
     def _get_expenditures(self):
@@ -133,7 +133,7 @@ class CandidateList:
 
         df = pd.DataFrame()
         for candidate in self.candidates:
-            df = df.append(candidate.expenditures)
+            df = pd.concat([df, candidate.expenditures])
         return df
 
 
@@ -300,7 +300,7 @@ class Candidate:
             dfi.insert(1, 'Reporting Period',
                        f'{report.start_date} to {report.end_date}')
             dfi.insert(2, 'Report Type', report.type)
-            df = df.append(dfi)
+            df = pd.concat([df, dfi])
         return df
 
     def _get_expenditures(self):
@@ -317,7 +317,7 @@ class Candidate:
             dfi.insert(1, 'Reporting Period',
                        f'{report.start_date} to {report.end_date}')
             dfi.insert(2, 'Report Type', report.type)
-            df = df.append(dfi)
+            df = pd.concat([df, dfi])
         return df
 
     def _summarize_reports(self):

@@ -133,7 +133,7 @@ class CommitteeList:
 
         df = pd.DataFrame()
         for committee in self.committees:
-            df = df.append(committee.contributions)
+            df = pd.concat([df, committee.contributions])
         return df
 
     def _get_expenditures(self):
@@ -143,7 +143,7 @@ class CommitteeList:
 
         df = pd.DataFrame()
         for committee in self.committees:
-            df = df.append(committee.expenditures)
+            df = pd.concat([df, committee.expenditures])
         return df
 
 
@@ -276,7 +276,7 @@ class Committee:
             dfi.insert(1, 'Reporting Period',
                        f'{report.start_date} to {report.end_date}')
             dfi.insert(2, 'Report Type', report.type)
-            df = df.append(dfi)
+            df = pd.concat([df, dfi])
         return df
 
     def _get_expenditures(self):
@@ -293,7 +293,7 @@ class Committee:
             dfi.insert(1, 'Reporting Period',
                        f'{report.start_date} to {report.end_date}')
             dfi.insert(2, 'Report Type', report.type)
-            df = df.append(dfi)
+            df = pd.concat([df, dfi])
         return df
 
     def _summarize_reports(self):
