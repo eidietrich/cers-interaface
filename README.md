@@ -1,6 +1,6 @@
 # CERS interface
 
-A home-brewed API for Montana's [Campaign Electronic Reporting System](https://cers-ext.mt.gov/CampaignTracker/dashboard), or CERS. CERS is operated by Montana's Commissioner of Political Practices as the primary public access point for campaign finance reports submitted by candidates for state office. This project, developed for internal use at [Montana Free Press](https://montanafreepress.org) is designed to allow for easier exports of CERS data to Excel-compatable CSVs and JSON summary files.
+A home-brewed API for Montana's [Campaign Electronic Reporting System](https://cers-ext.mt.gov/CampaignTracker/dashboard), or CERS. CERS is operated by Montana's Commissioner of Political Practices as the primary public access point for campaign finance reports submitted by candidates for state office. This project, developed for internal use at [Montana Free Press](https://montanafreepress.org), is designed to allow for easier exports of CERS data to Excel-compatable CSVs and JSON summary files.
 
 Contact edietrich@montanafreepress.org with questions or bug reports.
 
