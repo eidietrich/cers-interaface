@@ -33,7 +33,7 @@ committees = cers.get_committees_with_spending(cycle=YEAR)
 committees.export(f'raw/{YEAR}/committees')
 committee_cleaner.clean(
     raw_directory=f'raw/{YEAR}/committees',
-    out_path=f'cleaned-{YEAR}/committees', 
+    out_path=f'cleaned/{YEAR}/committees', 
 )
 
 # Legislative candidates

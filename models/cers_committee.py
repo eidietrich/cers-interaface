@@ -29,29 +29,6 @@ from bs4 import BeautifulSoup
 
 from models.cers_report import Report
 
-
-# Hacky - Alternative reports for places where CERS is choking
-# id: filename: filePath (.csv downloaded from CERS on a good day)
-MANUAL_CACHES = {
-    # 46348: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-46348-cooney-q42019-contributions.csv',
-    # 45786: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-45786-cooney-q32019-contributions.csv',
-    # 46959: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-46959-cooney-q12020-contributions.csv',
-    # 47635: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-47635-cooney-apr2020-contributions.csv',
-    # 48320: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-48320-cooney-may2020-contributions.csv',
-    # 48513: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-48513-cooney-june2020-contribututions.csv',
-    # 50070: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50070-cooney-aug2020-contribututions.csv',
-    # 50595: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50595-cooney-sept2020-contribututions.csv',
-    # 51325: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-51325-cooney-oct2020-contribututions.csv',
-}
-MANUAL_SUMMARY_CACHES = {
-    # 48513: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-48513-cooney-june2020-summary.html',
-    # 50070: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50070-cooney-aug2020-summary.html',
-    # 50595: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50595-cooney-sept2020-summary.html',
-    # 51325: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-51325-cooney-oct2020-summary.html',
-
-}
-
-
 class CommitteeList:
     """List of committees from specific search"""
 
@@ -109,7 +86,7 @@ class CommitteeList:
             'committeeName': d['committeeName'],
             'committeeAddress': d['committeeAddress'],
             # 'committeeState': d['entityDTO']['addressList']['state'],
-            # 'committeeState': d['entityDTO']['addressList']['zip5'],
+            # 'committeeZip': d['entityDTO']['addressList']['zip5'],
             'electionYear': d['electionYear'],
             'committeeStatusDescr': d['committeeStatusDescr'],
             'createdDate': d['createdDate'],
@@ -230,6 +207,9 @@ class Committee:
         return self.raw_reports
 
     def _get_summary(self):
+        c4_summaries = [
+            r.summary for r in self.finance_reports if r.type == 'C4'
+        ]
         c6_summaries = [
             r.summary for r in self.finance_reports if r.type == 'C6'
         ]
@@ -238,7 +218,7 @@ class Committee:
         c7e_summaries = [
             r.summary for r in self.finance_reports if r.type == 'C7E']
 
-        summaries = c6_summaries + c7_summaries + c7e_summaries
+        summaries = c4_summaries + c6_summaries + c7_summaries + c7e_summaries
 
         summaries = sorted(
             summaries, key=lambda i: parse(i['report_end_date']))
@@ -256,7 +236,8 @@ class Committee:
                 'total': tot_contributions - tot_expenditures
             },
             'report_counts': {
-                'c6': len(c6_summaries),
+                'C4': len(c4_summaries),
+                'C6': len(c6_summaries),
                 'C7': len(c7_summaries),
                 'C7E': len(c7e_summaries),
             }
@@ -264,7 +245,7 @@ class Committee:
 
     def _get_contributions(self):
         """
-        Return all contributions to candidate across multiple reports
+        Return all contributions to committee across multiple reports
         """
         if len(self.finance_reports) == 0:
             return pd.DataFrame()
@@ -281,7 +262,7 @@ class Committee:
 
     def _get_expenditures(self):
         """
-        Return all expenditures made by candidate across multiple reports
+        Return all expenditures made by committee across multiple reports
         """
         if len(self.finance_reports) == 0:
             return pd.DataFrame()
@@ -341,8 +322,3 @@ class Committee:
         self.contributions.to_json(contributions_path, orient='records')
         self.expenditures.to_json(expenditures_path, orient='records')
         print(self.slug, 'written to', os.path.join(os.getcwd(), write_dir))
-
-    # def _summarize_reports(self):
-    #     """
-    #     Return total + by-report unitemized contributions
-    #     """
