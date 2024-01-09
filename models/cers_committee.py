@@ -27,7 +27,7 @@ import json
 import re
 from bs4 import BeautifulSoup
 
-from cers_report import Report
+from models.cers_report import Report
 
 
 # Hacky - Alternative reports for places where CERS is choking

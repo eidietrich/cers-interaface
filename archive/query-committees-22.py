@@ -5,7 +5,7 @@
 run as: python3 query-committees-22.py
 """
 
-from cers_interface import Interface
+from models.cers_interface import Interface
 
 cers = Interface()
 

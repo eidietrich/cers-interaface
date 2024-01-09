@@ -31,20 +31,12 @@ For committees:
 
 These require you to have a way of running Python 3 with some third-party libraries installed. Run with a command in the form of `python3 script-name.py`
 
+Update data for 2024 races
+- `python3 update-2024.py`
 
-2022 state races
-- `query-state-22.py` - Runs CERS fetch for 2022 races, writes to `/raw` directory
-- `clean-state-22.py` - Gathers fetched data into summary files in `/cleaned` directory
+Archival 2022 scripts are in `archive` directory; may need some refactoring.
 
-2022 legislative races
-- `query-leg-22.py` - Fetches raw data for 2022 legislative races
-- `clean-leg-22.py` - Gathers 2022 legislative data into cleaned form.
-
-2022 political committees
-- `query-committtees-22.py` - Runs CERS fetch for 2022 PACS (excluding ActBlue, which files so much data it tends to break CERS), writes to `/raw` directory
-- `clean-committees.py` - Cathers committee data into cleaned form. 
-
-Cleaning scripts produces three types of outputs:
+Script logs 'raw' outputs to non-version-controlled `raw/2024` folder, as well as the following outputs to `cleaned/2024`:
 - contributions.csv — itemized list of contributions available from CERS
 - expenditures.csv - itemized list of expenditures
 - summary.json - totals and other summary information for specific entities and reports

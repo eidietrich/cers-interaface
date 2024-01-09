@@ -5,8 +5,8 @@ Components
 - Interface - List of queries (e.g. all statewide 2020 candidates)
 """
 
-from cers_candidate_models import CandidateList
-from cers_committee_models import CommitteeList
+from models.cers_candidate import CandidateList
+from models.cers_committee import CommitteeList
 
 CANDIDATE_SEARCH_DEFAULT = {
     'lastName': '',
@@ -40,18 +40,24 @@ COMMITTEE_SEARCH_DEFAULT = {
 
 ACTIVE_STATUSES = ['Active', 'Reopened', 'Amended']
 
-
 class Interface:
     """
     Interface for Montana COPP Campaign Electronic Reporting System
     """
 
-    def get_candidate_by_race(self, election_year, office_code):
+    def get_candidates_by_race(self, election_year, office_code):
         search = CANDIDATE_SEARCH_DEFAULT.copy()
         search['electionYear'] = election_year
         search['officeCode'] = office_code
-        return CandidateList(search, filterStatuses=ACTIVE_STATUSES,)
-
+        return CandidateList(search, filterStatuses=ACTIVE_STATUSES)
+    
+    def list_candidates_by_race(self, election_year, office_code):
+        search = CANDIDATE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = election_year
+        search['officeCode'] = office_code
+        results = CandidateList(search, filterStatuses=ACTIVE_STATUSES, fetchReports=False)
+        print(results.list_candidates()) 
+        
     def get_candidate_by_name(self, election_year, first, last):
         search = CANDIDATE_SEARCH_DEFAULT.copy()
         search['electionYear'] = election_year
@@ -94,6 +100,24 @@ class Interface:
             search,
             excludeCommittees=excludeCommittees
         )
+    
+    def get_legislative_candidates(self, cycle, excludeCandidates=[]):
+        """Returns data for legislative candidates running in given cycle"""
+
+        def office_is_legislative(candidate):
+            return 'House District' in candidate['officeTitle'] or 'Senate District' in candidate['officeTitle']
+
+        search = CANDIDATE_SEARCH_DEFAULT.copy()
+        search['electionYear'] = cycle
+        search['candidateTypeCode'] = 'SD' # State District in CERS shorthand
+        return CandidateList(
+            search,
+            filterStatuses=ACTIVE_STATUSES,
+            filterFunction=office_is_legislative,
+            # excludeCandidates=[18322]  # Fake Coffee J candidate for testing
+            excludeCandidates=excludeCandidates
+        )
+    
 
     # OLD FOR 2022 cycle
 
