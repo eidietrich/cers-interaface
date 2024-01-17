@@ -23,7 +23,6 @@ STATEWIDE_RACE_CODES = {
 STATE_DISTRICT_RACE_CODES = {
     'supcoChief': '246',
     'supco3': '249',
-    # 'supcoX', # No candidates as of 1/8, unclear which seat CERS considers open
     'psc2': '188',
     'psc4': '190',
 }
