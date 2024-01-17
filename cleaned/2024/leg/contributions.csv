@@ -1,6 +1,10 @@
 Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle Initial,Last Name,Addr Line1,City,State,Zip,Zip4,Country,Occupation,Employer,Contribution Type,Amount,Amount Type,Purpose,Election Type,Total Primary,Total General,Refund Transaction Type,Refund Original Transaction Date,Refund Original Transaction Total,Refund Original Transaction Descr,Previous Transaction (Y/N),Fundraiser Name,Fundraiser Location,Fundraiser Attendees,Fundraiser Tickets Sold,Political Party Staff Contribution,type
-"Haden, Rudolf  M",12/01/2023 to 01/31/2024,C5,12/13/2023,,Rudolf,M,Haden,P.O. Box 50665,Billings,MT,59105.0,,,Retired,Retired,3,2500.0,CA,,PM,2500.0,0.0,,,,,N,,,,,N,Loans
+"Haden, Rudolf  M",12/01/2023 to 12/31/2023,C5,01/09/2024,,,,,,,,,,,,,1,56.98,IK,500 Business Cards for Campaign,PM,56.98,0.0,,,,,N,,,,,N,Personal contributions
+"Haden, Rudolf  M",12/01/2023 to 12/31/2023,C5,12/13/2023,,Rudolf,M,Haden,P.O. Box 50665,Billings,MT,59105.0,,,Retired,Retired,3,2500.0,CA,,PM,2500.0,0.0,,,,,N,,,,,N,Loans
 "Cochran, Curtis   J",06/12/2023 to 06/30/2023,C5,06/19/2023,,,,,,,,,,,,,1,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Personal contributions
+"Marshall, Ron  L",10/22/2023 to 12/31/2023,C5,10/23/2023,The Cigna Group Employee PAC,,,,1 Jackson Creek Road,Montana City,MT,59634.0,,,,,7,150.0,CA,,PM,150.0,0.0,JFC-ENT-CM,,,,N,,,,,N,Incidental committee contributions
+"Marshall, Ron  L",10/22/2023 to 12/31/2023,C5,01/05/2024,,,,,,,,,,,,,1,150.0,CA,,PM,150.0,0.0,,,,,N,,,,,N,Personal contributions
+"Marshall, Ron  L",10/22/2023 to 12/31/2023,C5,10/23/2023,Cigna Corp Employee PAC,,,,1601 Chestnut St. #TL16B,Philadelphia,PA,19192.0,,,,,10,150.0,CA,,PM,150.0,0.0,,,,,N,,,,,N,10
 "Fitzpatrick, Steven  J",10/01/2023 to 12/31/2023,C5,10/27/2023,,Tiffany,,Day,5120 1st Ave. S.,Great Falls,MT,59405.0,,,Office Manager,Great West Storage,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Fitzpatrick, Steven  J",10/01/2023 to 12/31/2023,C5,10/27/2023,,Jeff,,Gohrick,2408 6th St. NW,Great Falls,MT,59404.0,,,Business Owner,Self Employed,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Fitzpatrick, Steven  J",10/01/2023 to 12/31/2023,C5,11/06/2023,Oneok Employees  PAC,,,,PO Box 871,Tulsa,OK,74102.0,,,,,5,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,PAC contributions
@@ -1495,11 +1499,33 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Fourstar, Lance  E",05/23/2023 to 07/05/2023,C5,06/06/2023,,Keegan,,Medrano,616,Missoula,MT,59802.0,,,Policy Director ,ACLU of Montana,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Fourstar, Lance  E",05/23/2023 to 07/05/2023,C5,06/06/2023,,Margarett,,Campbell,212 Tiber Drive,Havre/MT/59501,MT,59501.0,,,Chief Diversity Officer,Montana State University,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Fourstar, Lance  E",05/23/2023 to 07/05/2023,C5,10/05/2023,,,,,,,,,,,,,1,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Personal contributions
+"Brewster, Larry  D",10/06/2023 to 01/05/2024,C5,01/01/2024,,Larry,D,Brewster,1216 Babcock Blvd,Billings,MT,59105,,,TELECOM MANAGER,RETIRED,3,250.0,CA,,GN,0.0,250.0,,,,,N,,,,,N,Loans
 "Gregg, Randyn  C",12/05/2023 to 12/31/2023,C5,12/28/2023,,Randyn,C,Gregg,PO Box 583,White Sulphur Springs,MT,59645,,,Business Owner,Farrier Services,3,98.0,IK,6 mo PO Box Rental in WSS,PM,928.0,0.0,,,,,N,,,,,N,Loans
 "Gregg, Randyn  C",12/05/2023 to 12/31/2023,C5,12/28/2023,,Randyn,C,Gregg,PO Box 583,White Sulphur Springs,MT,59645,,,Business Owner,Farrier Services,3,830.0,CA,,PM,928.0,0.0,,,,,N,,,,,N,Loans
-"Phalen, Bob",06/16/2023 to 09/30/2023,C5,07/30/2023,,Robert,,Sazama,235 Road 261,Glendive,MT,59330,,,Farmer/Rancher ,self,9,300.0,CA,,PM,300.0,0.0,,,,,N,,,,,N,Individual contributions
-"Phalen, Bob",06/16/2023 to 09/30/2023,C5,07/18/2023,,Bob,,Phalen,444 ROAD 222,LINDSAY,MT,59339,,,Farmer/Rancher,self,3,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Loans
-"Phalen, Bob",06/16/2023 to 09/30/2023,C5,09/10/2023,,Cathy,,"Grist, ",1005 Hwy 253,Brockway,MT,59214,,,Farmer/Rancher/Retired,self,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,11/01/2023,,Jerry,,Schillinger,Box 147,Circle,MT,59215.0,,,RANCHER  CANDIDATE,self,9,310.0,IK,"Expenses for fundraiser held 10/7/23 - food, venue rental, advertising ",PM,310.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,11/07/2023,,Brandon,,Ler,11313 County Road 338,Savage,MT,59270.0,,,RANCHER  CANDIDATE,self,9,309.63,IK,"Expenses for fundraiser held 10/7/23 - food, venue rental, advertising ",PM,309.63,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Dennis,,Schaffer,30 Moorhead Road,Broadus,MT,59317.0,,,Rancher,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Susan,,Walla,114 Seven Mile Dr.,Glendive,MT,59330.0,,,Nurse Practitioner,self,9,125.0,CA,,PM,125.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Ken,,Young,621 Raymond,Glendive,MT,59330.0,,,Retired,,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Larry,,Woolston,20 N. Highway 59,Olive,MT,59343.0,,,Retail Grocery,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Bill,,Edwards,184 Road 209,Lindsey,MT,59339.0,,,Farmer,self,9,150.0,CA,,PM,150.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/25/2023,,Knudsen,,Rhonda,Box 1,Culbertson,MT,59218.0,,,RANCHER  CANDIDATE,self ,9,309.63,IK," Expenses for fund raiser on 10/7/23 - food, venue rental, advertising ",PM,309.63,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,11/05/2023,,Steve,,Hinebauch,610 Road 118,Wibaux,MT,59353.0,,,Rancher,self,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/08/2023,,Dorothy,,Chaffe,421 Mingus Road,Wibaux,MT,59353.0,,,Rancher,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/03/2023,,E. Roger,,Quaring,63 E. US Hwy 212,Broadus,MT,59317.0,,,,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/03/2023,,Dennis,,Lenz,Box 20752,Billings,MT,59104.0,,,Retired,,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,11/30/2023,,Melissa,,Lewis,231 Meadow Drive,Helena,MT,59601.0,,,Lobbyist ,"Oneok, Inc.",9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/06/2023,Oneok Employees PAC,,,,Box 871 ,Tulsa,OK,74102.0,,,,,5,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,PAC contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Tom,,Eaton,721 N. Kendrick Ave.,Glendive,MT,59330.0,,,Farmer/Rancher,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Jay,,Phalen,510 Road 222,Lindsey,MT,59339.0,,,Rancher,SELF,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Steve,,Ficek,511 Raymond,Glendive,MT,59330.0,,,Retired,,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Alan,,McRae,166 Road 244,Glendive,MT,59330.0,,,Retired,,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,Merle,,Mullet,101 Cr 523,Bloomfield,MT,59315.0,,,Farmer,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,,,,,,,,,,,,4,1000.0,CA,,PM,1929.26,0.0,,,,,N,Pig Roast,"EPEC, Glendive, MT",18.0,0.0,N,Fundraisers & misc
+"Phalen, Bob",10/01/2023 to 12/31/2023,C5,10/07/2023,,,,,,,,,,,,,4,929.26,IK,"Shared expenses (venue rental, food, newspaper advertising) for fundraiser 10/7/23",PM,1929.26,0.0,,,,,N,Pig Roast,"EPEC, Glendive, MT",18.0,0.0,N,Fundraisers & misc
+"Phalen, Bob",06/16/2023 to 09/30/2023,C5,07/30/2023,,Robert,,Sazama,235 Road 261,Glendive,MT,59330.0,,,Farmer/Rancher ,self,9,300.0,CA,,PM,300.0,0.0,,,,,N,,,,,N,Individual contributions
+"Phalen, Bob",06/16/2023 to 09/30/2023,C5,07/18/2023,,Bob,,Phalen,444 ROAD 222,LINDSAY,MT,59339.0,,,Farmer/Rancher,self,3,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Loans
+"Phalen, Bob",06/16/2023 to 09/30/2023,C5,09/10/2023,,Cathy,,"Grist, ",1005 Hwy 253,Brockway,MT,59214.0,,,Farmer/Rancher/Retired,self,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Pearson, C.B.",12/01/2023 to 12/31/2023,C5,12/14/2023,,Robin,,Pressman,2318 Coral Sea Street,Alameda,CA,94501.0,,,Consultant,Self-Employed,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Pearson, C.B.",12/01/2023 to 12/31/2023,C5,12/21/2023,,Barrett,,Kaiser,2211 Elm Street,Billings,MT,59101.0,,,Consultant,Hilltop Public Solutions,9,450.0,CA,,PM,450.0,0.0,,,,,N,,,,,N,Individual contributions
 "Pearson, C.B.",12/01/2023 to 12/31/2023,C5,12/15/2023,,Marc,,Ruben,32 Appleton Street,Arlington,VA,20476.0,,,Consultant,M+R,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
@@ -1932,6 +1958,15 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Bessette, Barbara",05/19/2023 to 07/31/2023,C5,05/20/2023,,Gail,,Waldby ,614 S 12th st,Livingston,MT,59047,,,Not Employed,Not employed,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
 "Bessette, Barbara",05/19/2023 to 07/31/2023,C5,05/20/2023,,DAN,,HALL,1709 S. 10TH ST. W.,MISSOULA,MT,59801,,,Small Business Owner,Western Cultural Inc,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Bessette, Barbara",05/19/2023 to 07/31/2023,C5,07/14/2023,,Kelly,,Kortum,210 E Granite Ave Apt 1,Bozeman,MT,59718,,,IT Guy,Community Co-OP,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,11/17/2023,,Wallis,,Smith ,My Way,Stevensville ,MT,59870,,,RETIRED  circulation mgr,RETIERED,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,11/17/2023,,Al,,Sperry,801 Old Corvallis Rd ,Corvallis ,MT,59828,,,RETIRED  circulation mgr,RETIRED (both),9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,12/05/2023,,Bill ,,Lussenhide ,922 Jenne Lane ,Florence ,MT,59833,,,Registered Investment Advisor ,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,12/05/2023,,Terri,,Lussenhide ,922 Jenne Lane ,Florence ,MT,59833,,,Lussenhide Capital Management Inc,SELF - ,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,12/05/2023,,Alan,,Lackey,517 S sunset Bench,Stevensville,MT,59870,,,Regional Director ,JBS,9,142.5,CA,,PM,142.5,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,11/14/2023,,Terri,,Lussenheide ,922 Jenne Lane ,Florence ,MT,59833,,,Investment Advisor ,self ,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,11/17/2023,,Alan,,Lackey,517 S Sunset Bench ,Stevensville ,MT,59870,,,Regional Director ,JBS,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,11/17/2023,,Greg,,Woodward ,5028 Bear Den Trail ,Missoula ,MT,59803,,,RETIRED ,RETIRED (both)retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Manzella, Theresa   M",10/21/2023 to 12/31/2023,C5,12/05/2023,,Wallis,,Smith ,420 College St,Stevensville,MT,59870,,,RETIRED ,Reited ,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Manzella, Theresa   M",07/06/2023 to 10/20/2023,C5,08/23/2023,,William,,Lussenheide,922 Jenne Ln,Florence ,MT,59833,,,FINANCIAL AADVISOR,self,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Manzella, Theresa   M",07/06/2023 to 10/20/2023,C5,10/10/2023,,Dennis,,Lenz,PO Box 20752,Billings ,MT,59104,,,FARMER,self,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Manzella, Theresa   M",04/19/2022 to 04/05/2023,C5,04/20/2022,,Brad,,Tschida ,10825 Mullan Rd ,Missoula,MT,59808,,,REAL ESTATE,"Virtus, LLC",9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
@@ -1982,6 +2017,12 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Hinkle, Caleb",06/16/2023 to 09/30/2023,C5,09/07/2023,,Lee,,Lori,528 Greenspring pl,Billings,MT,59106.0,,,RN,St. Vincent,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hinkle, Caleb",06/16/2023 to 09/30/2023,C5,09/08/2023,,Jessica,,Kirkendall,160 Yellow Pine Drive,Kalispell,MT,59901.0,,,RESEARCH ENGINEER,self,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hinkle, Caleb",06/16/2023 to 09/30/2023,C5,09/20/2023,,Kris,,Killorn,104 W Madison Ave,Belgrade,MT,59714.0,,,Insty Prints,Owner,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Quist, Guthrie  W",10/13/2023 to 01/12/2024,C5,01/08/2024,Flathead County Democratic Central Committee,,,,PO Box 2622,Kalispell,MT,59903,,,,,6,1125.0,CA,,PM,1125.0,0.0,,,,,N,,,,,N,Political party contributions
+"Quist, Guthrie  W",10/13/2023 to 01/12/2024,C5,10/26/2023,,Stebbins,,Mandy,PO Box 517,Whitefish,MT,59937,,,Dentist,Stebbins Dental Studio,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Quist, Guthrie  W",10/13/2023 to 01/12/2024,C5,01/11/2024,,Richard,,Clough,Po Box 1303,Choteau,MT,59422,,,None,Not employed,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Quist, Guthrie  W",10/13/2023 to 01/12/2024,C5,01/11/2024,,Richard,,Clough,PO Box 1303,Choteau,MT,59422,,,None,Not employed,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Gist, Steve  C",11/17/2023 to 01/05/2024,C5,11/17/2023,,Steve,C,Gist,339 1st ST. N,Cascade,MT,59421,,,WILDLAND FIREFIGHTER/Manager,Gist Enterprises LLC,3,515.0,CA,,PM,515.0,0.0,,,,,N,,,,,N,Loans
+"Gist, Steve  C",11/17/2023 to 01/05/2024,C7,11/17/23,"Gist, Steve C",,,,339 1st ST. N,Cascade,MT,59421,,,WILDLAND FIREFIGHTER/Manager,Gist Enterprises LLC,Loans,515.0,CA,,Primary,515.0,0.0,,,0.0,,N,,,0.0,0.0,,Loans
 "Sheldon-Galloway, LOLA",10/01/2023 to 12/31/2023,C5,12/05/2023,,LOLA,,Sheldon-Galloway,202 Sun Prairie Road,Great Falls,MT,59404.0,,,business owner/DQ,SELF -,3,10000.0,CA,,PM,11123.1,0.0,,,,,N,,,,,N,Loans
 "Sheldon-Galloway, LOLA",07/01/2023 to 09/30/2023,C5,09/14/2023,,Julie,,Wolf,920 Northview Ave,Great Falls,MT,59404.0,,,Retired,Retired,9,59.0,CA,,PM,59.0,0.0,,,,,N,,,,,N,Individual contributions
 "Sheldon-Galloway, LOLA",07/01/2023 to 09/30/2023,C5,09/28/2023,,LOLA,,Sheldon-Galloway,202 Sun Prairie Road,Great Falls,MT,59404.0,,,BUSINESS OWNER - DQ,Self Employed,3,860.0,CA,,PM,1123.1,0.0,,,,,N,,,,,N,Loans
@@ -2066,48 +2107,49 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Miner, Russel",07/04/2023 to 09/30/2023,C5,07/27/2023,,Russel,,Miner,1350 55th Ave South,Great Falls,MT,59405,,,Retired,Retired,3,1000.0,CA,,PM,1000.0,0.0,,,,,N,,,,,N,Loans
 "Friedel, Christopher  P",07/01/2023 to 10/05/2023,C5,10/03/2023,,Dennis,,Lenz,P.O.Box 20752,Billings,MT,59104,,,Legislator,Self Employed,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Friedel, Christopher  P",05/08/2023 to 06/30/2023,C5,05/08/2023,,Christopher,P,Friedel,3306 2nd Ave. N.,Billings,MT,59101,,,General Manager/Owner,Friedel Clinic,3,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Loans
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/20/2023,,Ricky,,Le,2317 Belleview Ave,Cheverly,MD,20785.0,,,Congressional Aide,U.S. House of Reps.,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/02/2023,,Brianne,,Rogers,PO Box 1504,Bozeman,MT,59771.0,,,Consultant,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/27/2023,,Barrett,,Kaiser,2211 Elm St.,Billings,MT,59101.0,,,Consultant,Hilltop Public Solutions,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,Susan,,Hayes,503 Meagher Ave,Bozeman,MT,59718.0,,,Consultant,Private firm,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/17/2023,,Jesse,,Mullen,312 Missouri Ave,Deer Lodge,MT,59722.0,,,Business Owner,ADEDPRO,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Elliot,,Howard,"71 Potomac Ave SE, Apt 823",Washington,DC,20003.0,,,Lobbyist,Massie Partners,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/16/2023,,Emily,,Cross,103 Avenue B,103 Avenue B,MT,59101.0,,,Attorney,KOA,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Amber,,Roberts,"3529 S Federal Hwy, Apt. E",Boynton Beach,FL,33435.0,,,Attorney,TIAA,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/19/2023,,JoAnn,,Schurman,55 Lower Rainbow,Bozeman,MT,59718.0,,,Bartender,Korner Klub,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/23/2023,,Brianne,,Ptacek,3055 N Honore St,Chicago,IL,60657.0,,,Finance,Barings,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,11/03/2023,,Lee,,Richardson,305 Ponderosa Dr,Miles City,MT,59301.0,,,Insurance Adjuster,Montana Claims Service,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,David,,Davis,31 Fort St,Lemoyne,PA,17043.0,,,Nurse,UPMC Health,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,11/01/2023,,Rachel,,Black,4190 Sunstone St,Bozeman,MT,59718.0,,,Accountant,Ashton Thomas Private Wealth,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/01/2023,,Rachel,,Blaxk,4190 Sunstone st,Bozeman,MT,59718.0,,,Accountant,Ashton Thomas Private Wealth,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/01/2023,,Rachel,,Black,4190 Sunstone st,Bozeman,MT,59718.0,,,Accountant,Ashton Thomas Private Wealth,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,Jessica,,Lillie,6871 Copper Ridge Loop,Billings,MT,59106.0,,,Development Director,MCV,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/03/2023,,Traci,,Katz,824 I St NE Unit 1,Washington,DC,20002.0,,,Diplomat,DEPARTMENT OF STATE,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/01/2023,,Calvin,Conra,Josey,368 enterprise blvd,Bozeman,MT,59718.0,,,Electrician,Bowen Electric,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/18/2023,,Kari,,Nicol,10736 W 7th Ave,Lakewood,CO,80215.0,,,Electrician,RAD Electric,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/03/2023,,Sarah,,Weaver,5 A Ave Apt 18,Polson,MT,59860.0,,,Writer,Sarah Weaver,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/17/2023,,Megan,,Schmitz,1106 Knight Street,Miles City,MT,59301.0,,,RN,Intermountain Healthcare,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/06/2023,,Billy,,McWilliams,1513 South Grand Ave,Bozeman,MT,59715.0,,,owner,"Erotique, LLC",9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/17/2023,,Jesse,,Mullen,312 Missouri Ave,Deer Lodge,MT,59722.0,,,Business Owner,ADEDPRO,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/17/2023,,Megan,,Schmitz,1106 Knight Street,Miles City,MT,59301.0,,,RN,Intermountain Healthcare,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/17/2023,,Jeff,,McEvoy,23 Dinsmore Pond Road,Center Sandwich,NH,3227.0,,,Not Employed,Not employed,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/31/2023,,Karen,,Alexander,1487 Ryun Sun Way,Bozeman,MT,59718.0,,,Not Employed,Not employed,9,50.0,CA,,GN,0.0,50.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/29/2023,,Carly,,Meyers,26 E Fieldview Cir,Bozeman,MT,59718.0,,,Not Employed,Not employed,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/13/2023,,Karen,,Alexander,1487 Ryun Sun Way,Bozeman,MT,59718.0,,,Not Employed,Not employed,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Loretta,,Andrews,3249 Le Grande Cannon Blvd,Helena,MT,59601.0,,,Not Employed,Not employed,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Karen,,Lundgren,332 N. Cottonwood Rd. Apt. C,Bozeman,MT,59718.0,,,LCPC,"PSYCHIATRY ASSOCIATES, PC",9,450.0,CA,,GN,0.0,450.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/21/2023,,Hallie,,Brown,"405 Bills Lane, Apt D309",Columbia Falls,MT,59912.0,,,Recruiter,Applied Materials,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/01/2023,,Faye,,Jorgensen,"4272 Monroe, Apt E",Bozeman,MT,59718.0,,,Seed Analyst,MSU,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/28/2023,,Karin,,Kirk,329 Little Wolf Rd,Bozeman,MT,59715.0,,,Science Writer,Karin Kirk,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/29/2023,,Kendra,,Druckenmiller,3053 Warbler Way Unit C,Bozeman,MT,59718.0,,,Owner Operator,Gallatin Valley Rental Group,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/17/2023,,Dan,,Dimendberg,1218 Rhode Island St #6,San Francisco,CA,94107.0,,,Political Communications,Cleansweep campaigns,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/15/2023,,Scott,,Rosenzweig,463 Summer Ridge Rd,Bozeman,MT,59715.0,,,TECHNOLOGY & BUSINESS,Decisive Insight LLC,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/29/2023,,Leandra,,Lipson,918 Breckenridge Street,Helena,MT,59601.0,,,NONPROFIT PROFESSIONAL,MLCT,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/16/2023,,Emily,,Cross,103 Avenue B,103 Avenue B,MT,59101.0,,,Attorney,KOA,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,Chris,,Conrad,341 NW 89th St,Seattle,WA,98117.0,,,INFORMATION SECURITY MANAGER,WARNER BROS DISCOVERY,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,Jessica,,Lillie,6871 Copper Ridge Loop,Billings,MT,59106.0,,,Development Director,MCV,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,11/01/2023,,Rachel,,Black,4190 Sunstone St,Bozeman,MT,59718.0,,,Accountant,Ashton Thomas Private Wealth,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/31/2023,,Karen,,Alexander,1487 Ryun Sun Way,Bozeman,MT,59718.0,,,Not Employed,Not employed,9,50.0,CA,,GN,0.0,50.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,Bryn,,Hughes,41 N Thorpe St,Kansas City,KS,66102.0,,,Vintage Dealer,self,9,50.0,CA,,GN,0.0,50.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/29/2023,,Carly,,Meyers,26 E Fieldview Cir,Bozeman,MT,59718.0,,,Not Employed,Not employed,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/29/2023,,Leandra,,Lipson,918 Breckenridge Street,Helena,MT,59601.0,,,NONPROFIT PROFESSIONAL,MLCT,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/01/2023,,Faye,,Jorgensen,"4272 Monroe, Apt E",Bozeman,MT,59718.0,,,Seed Analyst,MSU,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/13/2023,,Karen,,Alexander,1487 Ryun Sun Way,Bozeman,MT,59718.0,,,Not Employed,Not employed,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/15/2023,,Scott,,Rosenzweig,463 Summer Ridge Rd,Bozeman,MT,59715.0,,,TECHNOLOGY & BUSINESS,Decisive Insight LLC,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/15/2023,,Carly,,Radziewicz,10 mavista circle,Newark,DE,19713.0,,,ELA Teacher,COLONIAL SCHOOL DISTRICT,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/03/2023,,Sarah,,Weaver,5 A Ave Apt 18,Polson,MT,59860.0,,,Writer,Sarah Weaver,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/03/2023,,Traci,,Katz,824 I St NE Unit 1,Washington,DC,20002.0,,,Diplomat,DEPARTMENT OF STATE,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/29/2023,,Kendra,,Druckenmiller,3053 Warbler Way Unit C,Bozeman,MT,59718.0,,,Owner Operator,Gallatin Valley Rental Group,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,11/03/2023,,Lee,,Richardson,305 Ponderosa Dr,Miles City,MT,59301.0,,,Insurance Adjuster,Montana Claims Service,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,11/06/2023,,Mark,,Jette,1001 Madison Ave.,Helena,MT,59601.0,,,Silverman Law Office,Attorney,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/01/2023,,Rachel,,Blaxk,4190 Sunstone st,Bozeman,MT,59718.0,,,Accountant,Ashton Thomas Private Wealth,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/17/2023,,Dan,,Dimendberg,1218 Rhode Island St #6,San Francisco,CA,94107.0,,,Political Communications,Cleansweep campaigns,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/18/2023,,Kari,,Nicol,10736 W 7th Ave,Lakewood,CO,80215.0,,,Electrician,RAD Electric,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/20/2023,,Ricky,,Le,2317 Belleview Ave,Cheverly,MD,20785.0,,,Congressional Aide,U.S. House of Reps.,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/23/2023,,Brianne,,Ptacek,3055 N Honore St,Chicago,IL,60657.0,,,Finance,Barings,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/01/2023,,Rachel,,Black,4190 Sunstone st,Bozeman,MT,59718.0,,,Accountant,Ashton Thomas Private Wealth,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/27/2023,,Barrett,,Kaiser,2211 Elm St.,Billings,MT,59101.0,,,Consultant,Hilltop Public Solutions,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Amber,,Roberts,"3529 S Federal Hwy, Apt. E",Boynton Beach,FL,33435.0,,,Attorney,TIAA,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/15/2023,,Haylie,,Wisemiller,728 None Such St,Helena,MT,59601.0,,,St. Peter�s Health,RN,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/19/2023,,JoAnn,,Schurman,55 Lower Rainbow,Bozeman,MT,59718.0,,,Bartender,Korner Klub,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/21/2023,,Hallie,,Brown,"405 Bills Lane, Apt D309",Columbia Falls,MT,59912.0,,,Recruiter,Applied Materials,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Rio,,Roland,1122 S Cedarview Dr,Bozeman,MT,59715.0,,,Senior Analyst - Wind Energy,Innergex,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Loretta,,Andrews,3249 Le Grande Cannon Blvd,Helena,MT,59601.0,,,Not Employed,Not employed,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Elliot,,Howard,"71 Potomac Ave SE, Apt 823",Washington,DC,20003.0,,,Lobbyist,Massie Partners,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/31/2023,,Karen,,Lundgren,332 N. Cottonwood Rd. Apt. C,Bozeman,MT,59718.0,,,LCPC,"PSYCHIATRY ASSOCIATES, PC",9,450.0,CA,,GN,0.0,450.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/28/2023,,Karin,,Kirk,329 Little Wolf Rd,Bozeman,MT,59715.0,,,Science Writer,Karin Kirk,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",10/12/2023 to 01/01/2024,C5,01/05/2024,,,,,,,,,,,,,1,655.0,CA,,PM,2555.0,0.0,,,,,N,,,,,N,Personal contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,Susan,,Hayes,503 Meagher Ave,Bozeman,MT,59718.0,,,Consultant,Private firm,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,12/01/2023,,Jon,,Nagy,"351-B, Evergreen Dr",Bozeman,MT,59715.0,,,Co-Founder and Chief Scientific Officer,"NanoValent Pharmaceuticals, Inc. ",9,60.0,CA,,PM,60.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/01/2023,,Calvin,Conra,Josey,368 enterprise blvd,Bozeman,MT,59718.0,,,Electrician,Bowen Electric,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Hansen, John  C",10/12/2023 to 01/01/2024,C5,10/28/2023,,David,,Davis,31 Fort St,Lemoyne,PA,17043.0,,,Nurse,UPMC Health,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",07/01/2023 to 10/11/2023,C5,09/24/2023,,Karen,,Black,416 West Spring Creek,Bozeman,MT,59718.0,,,Consultant,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",07/01/2023 to 10/11/2023,C5,09/30/2023,,Jennifer,,Jarrell,3666 Vacation Lane,Arlington,VA,22207.0,,,Consultant,Bighorn Public Affairs,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",07/01/2023 to 10/11/2023,C5,08/27/2023,,Chris,,Cordingly,700 Iowa,Helena,MT,59601.0,,,Consultant,Civitas,9,201.0,CA,,PM,201.0,0.0,,,,,N,,,,,N,Individual contributions
@@ -2158,14 +2200,21 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Hansen, John  C",07/01/2023 to 10/11/2023,C5,09/17/2023,,Laura,,Smith,4923 Smallwood Ct,Helena,MT,59601.0,,,Attorney/Community Development,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",07/01/2023 to 10/11/2023,C5,08/27/2023,,Will,,Sehestedt,1611 Eckington,Washington,DC,20002.0,,,Director of Legislative Affairs,American Trucking Associations,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
 "Hansen, John  C",07/01/2023 to 10/11/2023,C5,10/08/2023,,,,,,,,,,,,,1,1900.0,CA,,PM,1900.0,0.0,,,,,N,,,,,N,Personal contributions
-"Newman, Darlean",11/16/2023 to 12/31/2023,C5,12/28/2023,,Angela,,Bennin,7 MORGAN TRL,LIVINGSTON,MT,59047,,,CFO/VP,"SCOTTY'S OIL COMPANY, INC",9,450.0,CA,,PM,450.0,0.0,,,,,N,,,,,N,Individual contributions
-"Newman, Darlean",11/16/2023 to 12/31/2023,C5,12/28/2023,,Cecil,,Bennin,7 Morgan Trail,Livingston,MT,59047,,,CEO,"SCOTTY'S OIL COMPANY, INC",9,450.0,CA,,PM,450.0,0.0,,,,,N,,,,,N,Individual contributions
-"Newman, Darlean",11/16/2023 to 12/31/2023,C5,12/28/2023,,Darlean,,Newman,644 Red Fox Road,Wise River,MT,59762,,,BUSINESS OWNER - REGISTRATION SOLUTIONS,self,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
+"Newman, Darlean",11/16/2023 to 12/31/2023,C5,12/28/2023,,Angela,,Bennin,7 MORGAN TRL,LIVINGSTON,MT,59047.0,,,CFO/VP,"SCOTTY'S OIL COMPANY, INC",9,450.0,CA,,PM,450.0,0.0,,,,,N,,,,,N,Individual contributions
+"Newman, Darlean",11/16/2023 to 12/31/2023,C5,12/28/2023,,Cecil,,Bennin,7 Morgan Trail,Livingston,MT,59047.0,,,CEO,"SCOTTY'S OIL COMPANY, INC",9,450.0,CA,,PM,450.0,0.0,,,,,N,,,,,N,Individual contributions
+"Newman, Darlean",11/16/2023 to 12/31/2023,C5,12/28/2023,,Darlean,,Newman,644 Red Fox Road,Wise River,MT,59762.0,,,BUSINESS OWNER - REGISTRATION SOLUTIONS,self,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
+"Newman, Darlean",11/16/2023 to 12/31/2023,C5,01/16/2024,,,,,,,,,,,,,1,20.0,IK,MT SEC OF STATE REGISTERED AN ASSUMED NAME FEE,PM,257.13,0.0,,,,,N,,,,,N,Personal contributions
+"Newman, Darlean",11/16/2023 to 12/31/2023,C5,01/16/2024,,,,,,,,,,,,,1,15.0,IK,PAID FOR MT SEC OF STATE REGISTRATION FEE,PM,257.13,0.0,,,,,N,,,,,N,Personal contributions
+"Newman, Darlean",11/16/2023 to 12/31/2023,C5,01/16/2024,,,,,,,,,,,,,1,92.0,IK,PAID FOR P. O. BOX FOR 1 YEAR,PM,257.13,0.0,,,,,N,,,,,N,Personal contributions
+"Newman, Darlean",11/16/2023 to 12/31/2023,C5,01/16/2024,,,,,,,,,,,,,1,130.13,IK,MTGOP WINRED DONATION FOR KICKOPP,PM,257.13,0.0,,,,,N,,,,,N,Personal contributions
 "delisle, Steven",10/01/2023 to 12/31/2023,C5,12/14/2023,,steven,e,delisle,PO BOX 498,Alberton,MT,59820,,,Dentist,self,3,1000.0,CA,,PM,1000.0,0.0,,,,,N,,,,,N,Loans
 "delisle, Steven",10/01/2023 to 12/31/2023,C5,11/20/2023,,steven,e,delisle,PO BOX 498,Alberton,MT,59820,,,Dentist,Self Employed,3,1000.0,CA,,PM,1000.0,0.0,,,,,N,,,,,N,Loans
 "Albus, Eric",11/28/2023 to 12/31/2023,C5,12/15/2023,,Eric,,Albus,PO Box 35,Hinsdale,MT,59241,,,Outfitter,Milk River Outfitters,3,15000.0,CA,,PM,15000.0,0.0,,,,,N,,,,,N,Loans
 "Albus, Eric",11/28/2023 to 12/31/2023,C5,12/12/2023,,Mark,R,Taylor,11 Howard Beer Rd,Montana City,MT,59634,,,Principal,Taylor Luther,9,450.0,CA,,PM,450.0,350.0,,,,,N,,,,,N,Individual contributions
 "Albus, Eric",11/28/2023 to 12/31/2023,C5,12/12/2023,,Mark,R,Taylor,11 Howard Beer Rd,Montana City,MT,59634,,,Principal,Taylor Luther,9,350.0,CA,,GN,450.0,350.0,,,,,N,,,,,N,Individual contributions
+"Kerr-Carpenter, Emma",10/01/2023 to 12/31/2023,C5,12/06/2023,,Wade,,Sikorski,1511 HWY 7,Baker,MT,59313,,,Sikorski and Sons,Farm,9,50.0,CA,,GN,0.0,50.0,,,,,N,,,,,N,Individual contributions
+"Kerr-Carpenter, Emma",10/01/2023 to 12/31/2023,C5,11/21/2023,Deloitteittee Political Action Committee,,,,PO Box 365,Washington,DC,20044,,,,,5,200.0,CA,,GN,0.0,200.0,,,,,N,,,,,N,PAC contributions
+"Kerr-Carpenter, Emma",10/01/2023 to 12/31/2023,C5,10/24/2023,,Jim,,Scott,PO box 7113,Billings,MT,59103,,,Not Employed,Not employed,9,400.0,CA,,GN,0.0,400.0,,,,,N,,,,,N,Individual contributions
 "Kerr-Carpenter, Emma",06/02/2023 to 09/30/2023,C5,07/31/2023,Montana Democratic Party,,,,303 N Ewing St,Helena,MT,59601,,,,,6,212.56,IK,Mailing Technical services -- postage,GN,0.0,355.3,,,,,N,,,,,N,Political party contributions
 "Kerr-Carpenter, Emma",06/02/2023 to 09/30/2023,C5,07/31/2023,Montana Democratic Party,,,,303 N Ewing St,Helena,MT,59601,,,,,6,142.74,IK,Printing,GN,0.0,355.3,,,,,N,,,,,N,Political party contributions
 "Dailey, Kimberly   A",10/04/2023 to 12/31/2023,C5,10/14/2023,,Theresa,,MANZELLA,640 Goldcreek Loop,hamilton,MT,59840.0,,,Legislator,Self Employed,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
@@ -2420,13 +2469,6 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Reavis, James",07/01/2023 to 09/30/2023,C5,09/01/2023,,Gene,,Jarussi,P.O. Box 115,Billings,MT,59103,,,Retired,Retired,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Schillinger, Jerry  L",11/01/2023 to 12/31/2023,C5,11/01/2023,,Roger,,Quaring,63 E US Hwy 212,Broadus,MT,59317,,,Rancher,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Schillinger, Jerry  L",11/01/2023 to 12/31/2023,C5,11/01/2023,,Tom,,Eaton,721 N Kendrick Ave,Glendive,MT,59330,,,Farmer,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hopkins, Sandor  R",10/01/2023 to 12/31/2023,C5,10/21/2023,,Cheryl,M,Ulmer,64 Wilson Butte Road,Great Falls,MT,59405.0,,,Regional Director,US Senator Jon Tester,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hopkins, Sandor  R",10/01/2023 to 12/31/2023,C5,12/02/2023,,Gerry,M,Jennings,317 Fox Dr,Great Falls,MT,59404.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hopkins, Sandor  R",10/01/2023 to 12/31/2023,C5,12/17/2023,Bessette  4 MT House,,,,PO Box 6964,Great Falls,MT,59406.0,,,,,5,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,PAC contributions
-"Hopkins, Sandor  R",07/01/2023 to 09/30/2023,C5,08/16/2023,MT Land Surveyors,,,,101 Jensen Road,Columbia Falls,MT,59912.0,,,,,5,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,PAC contributions
-"Hopkins, Sandor  R",07/01/2023 to 09/30/2023,C5,07/17/2023,,Matthew,D,Morris,PO Box 513, Choteau,MT,59422.0,,,Professional Land Surveyor,Morris Land Surveys,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hopkins, Sandor  R",07/01/2023 to 09/30/2023,C5,08/04/2023,,Helena,,Lovick,1200 8th Ave N,Great Falls,MT,59401.0,,,Patent Agent,Cantor Colburn,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Hopkins, Sandor  R",06/20/2023 to 06/30/2023,C5,07/13/2023,,,,,,,,,,,,,1,250.0,CA,,PM,250.0,0.0,,,,,N,,,,,N,Personal contributions
 "Jordan, Lindsey  M",10/25/2023 to 12/31/2023,C5,11/20/2023,,Kent,,Mereis,106 Moe's Run,Kalispell,MT,59901.0,,,Professional Photographer,Self-Employed,9,400.0,IK,Photo shoot for campaign headshots/licensing,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Jordan, Lindsey  M",10/25/2023 to 12/31/2023,C5,12/14/2023,,,,,,,,,,,,,1,146.0,CA,,PM,274.08,0.0,,,,,N,,,,,N,Personal contributions
 "Jordan, Lindsey  M",10/25/2023 to 12/31/2023,C5,12/14/2023,,,,,,,,,,,,,1,128.08,CA,,PM,274.08,0.0,,,,,N,,,,,N,Personal contributions
@@ -2515,10 +2557,14 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Buttrey, Ed",07/01/2023 to 09/30/2023,C5,09/21/2023,American Property Casualty Ins Asn PAC,,,,8700 W. Bryn Mawr Ave,Chicago,IL,60631.0,,,,,5,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,PAC contributions
 "Lee, Marc  J",10/06/2023 to 12/31/2023,C5,11/09/2023,,Marc,,Lee,PO Box 4308,Butte,MT,59702,,,Firefighter,Butte - Silver Bow,3,300.0,CA,,GN,0.0,300.0,,,,,N,,,,,N,Loans
 "Lee, Marc  J",09/04/2023 to 10/05/2023,C5,09/28/2023,,Marc,J,lee,PO Box 4308,butte,MT,59701,,,Fire dept,Butte Silver Bow FD,9,300.0,CA,,GN,0.0,300.0,,,,,N,,,,,N,Individual contributions
-"Arends, David  J",10/01/2023 to 12/31/2023,C5,11/24/2023,,Yale,,Laura,1700 Madeline Ave,Missoula,MT,59801.0,,,Film Producer,self,9,291.0,CA,,PM,291.0,0.0,,,,,N,,,,,N,Individual contributions
-"Arends, David  J",10/01/2023 to 12/31/2023,C5,11/24/2023,,Zimmerman,,Graham,3335 NE Stonebrook Loop,Bend,OR,97701.0,,,PROFESSIONAL ATHLETE,Protect Our winters,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Arends, David  J",10/01/2023 to 12/31/2023,C5,11/03/2023,,Max,,Wedel,6640 Barela Ave.,Arcadia,CA,91007.0,,,,,9,10.0,CA,,PM,80.0,0.0,,,,,N,,,,,N,Individual contributions
+"Arends, David  J",10/01/2023 to 12/31/2023,C5,01/12/2024,,,,,,,,,,,,,1,300.0,CA,,PM,604.99,0.0,,,,,N,,,,,N,Personal contributions
 "Arends, David  J",10/01/2023 to 12/31/2023,C5,11/24/2023,,Julia Geer,,Geer,2452 Mill Village Rd.,Craftsbury Common,VT,5827.0,,,Markeketing/Engineering Teams,"Concept 2, Inc",9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Arends, David  J",10/01/2023 to 12/31/2023,C5,11/24/2023,,Zimmerman,,Graham,3335 NE Stonebrook Loop,Bend,OR,97701.0,,,PROFESSIONAL ATHLETE,Protect Our winters,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Arends, David  J",10/01/2023 to 12/31/2023,C5,10/10/2023,,George,,Yeager,2616 Mason Rd,Conrad,MT,59425.0,,,,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Arends, David  J",10/01/2023 to 12/31/2023,C5,12/03/2023,,Max,,Wedel,6640 Barela Ave.,Arcadia,CA,91007.0,,,,,9,10.0,CA,,PM,80.0,0.0,,,,,N,,,,,N,Individual contributions
+"Arends, David  J",10/01/2023 to 12/31/2023,C5,10/03/2023,,Max,,Wedel,6640 Barela Ave.,Arcadia,CA,91007.0,,,,,9,10.0,CA,,PM,80.0,0.0,,,,,N,,,,,N,Individual contributions
+"Arends, David  J",10/01/2023 to 12/31/2023,C5,11/24/2023,,Yale,,Laura,1700 Madeline Ave,Missoula,MT,59801.0,,,Film Producer,self,9,291.0,CA,,PM,291.0,0.0,,,,,N,,,,,N,Individual contributions
 "Arends, David  J",07/01/2023 to 09/30/2023,C5,08/07/2023,,Mary,,Di Biase,1351 Elliott Rd S,Conrad,MT,59425.0,,,Consultant,UNIVERSITY OF MASSACHUSETTS,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Arends, David  J",07/01/2023 to 09/30/2023,C5,08/10/2023,,Cori,,Di Biase,1351 Elliott Rd S,Conrad,MT,59425.0,,,Consultant,UNIVERSITY OF MASSACHUSETTS,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Arends, David  J",07/01/2023 to 09/30/2023,C5,08/08/2023,,Judy,J,Sibley,1 Fort Drum Ct,Conrad,MT,59425.0,,,Minister,First Presbyterian Church of Conrad,9,75.0,CA,,PM,75.0,0.0,,,,,N,,,,,N,Individual contributions
@@ -2542,6 +2588,9 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Arends, David  J",07/01/2023 to 09/30/2023,C5,09/15/2023,,,,,,,,,,,,,1,75.0,IK,Personal purchase of Campaign Banner from Staples ,PM,304.99,0.0,,,,,N,,,,,N,Personal contributions
 "Arends, David  J",07/01/2023 to 09/30/2023,C5,09/15/2023,,,,,,,,,,,,,1,200.0,CA,,PM,304.99,0.0,,,,,N,,,,,N,Personal contributions
 "Arends, David  J",07/01/2023 to 09/30/2023,C5,09/15/2023,,,,,,,,,,,,,1,24.99,IK,Personal purchase of campaign business cards from Staples,PM,304.99,0.0,,,,,N,,,,,N,Personal contributions
+"Adams, Dakota  V",10/01/2023 to 12/31/2023,C5,01/09/2024,,,,,,,,,,,,,1,508.0,CA,,GN,0.0,508.0,,,,,N,,,,,N,Personal contributions
+"Adams, Dakota  V",10/01/2023 to 12/31/2023,C5,12/19/2023,,Pom,,Collins,PO Box 142,Trego,MT,59934.0,,,Retired Educator,Public School Districts,9,300.0,CA,,GN,0.0,300.0,,,,,N,,,,,N,Individual contributions
+"Adams, Dakota  V",10/01/2023 to 12/31/2023,C5,12/19/2023,,Eileen,,Carney,PO Box 1193,Libby,MT,59923.0,,,RETIRED  educator,Public School Districts,9,100.0,CA,,GN,0.0,100.0,,,,,N,,,,,N,Individual contributions
 "Rosenzweig, Scott  A",11/15/2023 to 12/31/2023,C5,11/27/2023,,Janis,,Davisson,5457 Sabbioni Street,Myrtle Beach,SC,29572.0,,,Operations Director,World Richman Corporation,9,400.0,CA,,PM,450.0,0.0,,,,,N,,,,,N,Individual contributions
 "Rosenzweig, Scott  A",11/15/2023 to 12/31/2023,C5,12/05/2023,,Esther,,Streit,28490 Gordon Court,Naperville,IL,60564.0,,,Business Owner,self,9,250.0,CA,,PM,250.0,0.0,,,,,N,,,,,N,Individual contributions
 "Rosenzweig, Scott  A",11/15/2023 to 12/31/2023,C5,12/07/2023,,Peter,,Strom,251 Southview Ridge Ln,Bozeman,MT,59715.0,,,CFO,MagDrive technologies inc,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
@@ -2928,10 +2977,17 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Loge, Denley  M",10/09/2023 to 10/23/2023,C7,10/23/23,"Reneau, Jack",,,,#4 Marthas Ct.,Missoula,MT,59803,,,Retired,Retired,Individual Contributions,100.0,CA,,Primary,100.0,0.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
 "Loge, Denley  M",10/09/2023 to 10/23/2023,C7,10/23/23,"Reneau, Susan",,,,#4 Marthas Ct.,Missoula,MT,59803,,,Retired,Retired,Individual Contributions,200.0,CA,,Primary,200.0,0.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
 "Loge, Denley  M",10/09/2023 to 10/23/2023,C7,10/16/23,Signa Group employees,,,,Box 2313,Montana City,MT,59634,,,,,Independent Committee Contributions,150.0,CA,,Primary,150.0,0.0,,,0.0,,N,,,0.0,0.0,,Independent Committee Contributions
-"Loge, Denley  M",07/12/2023 to 10/05/2023,C7,07/24/23,"Nemetz, Rob A",,,,690 Live Oak Ave.,Galt,CA,95632,,,Construction Business Owner,self,Individual Contributions,400.0,CA,,Primary,400.0,0.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
-"Loge, Denley  M",07/12/2023 to 10/05/2023,C7,08/02/23,Montana Contractors Association,,,,1717 11th Ave.,Helena,MT,50601,,,,,Independent Committee Contributions,400.0,CA,,Primary,400.0,0.0,,,0.0,,N,,,0.0,0.0,,Independent Committee Contributions
-"Loge, Denley  M",06/12/2023 to 07/06/2023,C5,06/23/2023,,Denley,M,Loge,1296 Four Mile Rd.,St. Regis,MT,59866,,,Rancher,self,3,3000.0,CA,,PM,3000.0,0.0,,,,,N,,,,,N,Loans
+"Loge, Denley  M",07/24/2023 to 07/24/2023,C7,07/24/23,"Nemetz, Rob A",,,,690 Live Oak Ave.,Galt,CA,95632,,,Construction Business Owner,self,Individual Contributions,400.0,CA,,Primary,400.0,0.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
+"Loge, Denley  M",07/24/2023 to 07/24/2023,C7,08/02/23,Montana Contractors Association,,,,1717 11th Ave.,Helena,MT,50601,,,,,Independent Committee Contributions,400.0,CA,,Primary,400.0,0.0,,,0.0,,N,,,0.0,0.0,,Independent Committee Contributions
+"Loge, Denley  M",07/07/2023 to 12/31/2023,C5,10/16/2023,Signa Group employees,,,,Box 2313,Montana City,MT,59634,,,,,5,150.0,CA,,PM,150.0,0.0,,,,,N,,,,,N,PAC contributions
+"Loge, Denley  M",07/07/2023 to 12/31/2023,C5,10/09/2023,,Ross,,Fitzgerald,451 1st Rd NE,Fairfield,MT,59436,,,Realtor,self,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Loge, Denley  M",07/07/2023 to 12/31/2023,C5,10/23/2023,,Jack,,Reneau,#4 Marthas Ct.,Missoula,MT,59803,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Loge, Denley  M",07/07/2023 to 12/31/2023,C5,10/23/2023,,Susan,,Reneau,#4 Marthas Ct.,Missoula,MT,59803,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Loge, Denley  M",07/07/2023 to 12/31/2023,C5,12/13/2023,,David,A,Sabey,12201 Tukwila Int. Blvd.  4th floor,Seatte,WA,98168,,,CEO,Sabey Corp.,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Loge, Denley  M",07/07/2023 to 12/31/2023,C5,07/24/2023,,Rob,A,Nemetz,690 Live Oak Ave.,Galt,CA,95632,,,Construction Business Owner,self,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
+"Loge, Denley  M",07/07/2023 to 12/31/2023,C5,08/02/2023,Montana Contractors Association,,,,1717 11th Ave.,Helena,MT,50601,,,,,5,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,PAC contributions
 "Loge, Denley  M",06/12/2023 to 07/06/2023,C5,06/12/2023,,Susan,,Reneau,Marthas Ct,Missoula,MT,59803,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Loge, Denley  M",06/12/2023 to 07/06/2023,C5,06/23/2023,,Denley,M,Loge,1296 Four Mile Rd.,St. Regis,MT,59866,,,Rancher,self,3,3000.0,CA,,PM,3000.0,0.0,,,,,N,,,,,N,Loans
 "Knudsen, Rhonda",10/01/2023 to 12/31/2023,C5,11/20/2023,,Melissa,A,Lewis,800 E 6th Ave ,Helena ,MT,59601,,,Attorney,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
 "Knudsen, Rhonda",10/01/2023 to 12/31/2023,C5,10/11/2023,,Dennis,R,Lenz,P.O. Box 20752,Billings,MT,59104,,,State Senator,People of Montana,9,400.0,CA,,PM,400.0,0.0,,,,,N,,,,,N,Individual contributions
 "Knudsen, Rhonda",10/01/2023 to 12/31/2023,C5,10/22/2023,,Linda,,Eaton,721 N. Kendrick Ave,Glendive,MT,59330,,,,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
