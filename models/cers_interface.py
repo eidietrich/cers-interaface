@@ -49,26 +49,34 @@ class Interface:
         search = CANDIDATE_SEARCH_DEFAULT.copy()
         search['electionYear'] = election_year
         search['officeCode'] = office_code
-        return CandidateList(search, filterStatuses=ACTIVE_STATUSES)
+        return CandidateList(search, 
+                             cachePath=f'cache/{election_year}/candidates',
+                             filterStatuses=ACTIVE_STATUSES)
     
     def list_candidates_by_race(self, election_year, office_code):
         search = CANDIDATE_SEARCH_DEFAULT.copy()
         search['electionYear'] = election_year
         search['officeCode'] = office_code
-        results = CandidateList(search, filterStatuses=ACTIVE_STATUSES, fetchReports=False)
+        results = CandidateList(search, 
+                                cachePath=f'cache/{election_year}/candidates',
+                                filterStatuses=ACTIVE_STATUSES, 
+                                fetchReports=False)
         print(results.list_candidates()) 
         
-    def get_candidate_by_name(self, election_year, first, last):
+    def get_candidate_by_name(self, election_year, first, last, filterStatuses=ACTIVE_STATUSES):
         search = CANDIDATE_SEARCH_DEFAULT.copy()
         search['electionYear'] = election_year
         search['lastName'] = last
         search['firstName'] = first
-        return CandidateList(search, filterStatuses=ACTIVE_STATUSES)
+        return CandidateList(search,
+                             cachePath=f'cache/{election_year}/candidates',
+                             filterStatuses=filterStatuses)
 
     def get_committee_by_name(self, name, **kwargs):
         search = COMMITTEE_SEARCH_DEFAULT.copy()
         search['expendCommitteeName'] = name
         return CommitteeList(search,
+                             cachePath=f'cache/{election_year}/committees',
                              fetchReports=kwargs['fetchReports'])
 
     # Recipes
@@ -81,6 +89,7 @@ class Interface:
         search['electionYear'] = cycle
         committees = CommitteeList(
             search,
+            cachePath=f'cache/{cycle}/committees',
             fetchReports=False,  # avoids costly report scrape
         )
         print('Num:', len(committees.list_committees()))
@@ -98,10 +107,11 @@ class Interface:
         print('Note: Unless otherwise specified, this skips ActBlue')
         return CommitteeList(
             search,
+            cachePath=f'cache/{cycle}/committees',
             excludeCommittees=excludeCommittees
         )
     
-    def get_legislative_candidates(self, cycle, excludeCandidates=[]):
+    def get_legislative_candidates(self, cycle, excludeCandidates=[], filterStatuses=ACTIVE_STATUSES):
         """Returns data for legislative candidates running in given cycle"""
 
         def office_is_legislative(candidate):
@@ -112,7 +122,8 @@ class Interface:
         search['candidateTypeCode'] = 'SD' # State District in CERS shorthand
         return CandidateList(
             search,
-            filterStatuses=ACTIVE_STATUSES,
+            cachePath=f'cache/{cycle}/candidates',
+            filterStatuses=filterStatuses,
             filterFunction=office_is_legislative,
             # excludeCandidates=[18322]  # Fake Coffee J candidate for testing
             excludeCandidates=excludeCandidates
@@ -127,6 +138,7 @@ class Interface:
         search['electionYear'] = '2022'
         committees = CommitteeList(
             search,
+            cachePath=f'cache/2022/committees',
             fetchReports=False,  # avoids costly report scrape
         )
         
@@ -137,6 +149,7 @@ class Interface:
         search['electionYear'] = '2022'
         return CommitteeList(
             search,
+            cachePath=f'cache/2022/committees',
             excludeCommittees=[1895]  # ActBlue
         )
 
@@ -151,6 +164,7 @@ class Interface:
         search['candidateTypeCode'] = 'SD'
         candidates = CandidateList(
             search,
+            cachePath=f'cache/2022/committees',
             fetchReports=False,  # avoids costly scraping operation
             filterStatuses=ACTIVE_STATUSES,
             filterFunction=office_is_legislative,
@@ -170,6 +184,7 @@ class Interface:
         search['candidateTypeCode'] = 'SD'
         return CandidateList(
             search,
+            cachePath=f'cache/2022/committees',
             filterStatuses=ACTIVE_STATUSES,
             filterFunction=office_is_legislative,
             excludeCandidates=[18322]  # Fake Coffee J candidate for testing
@@ -191,6 +206,7 @@ class Interface:
             search['candidateTypeCode'] = office
             candidates = CandidateList(
                 search,
+                cachePath=f'cache/2022/committees',
                 fetchReports=False,  # avoids costly scraping operation
                 filterStatuses=ACTIVE_STATUSES
             )
@@ -206,6 +222,7 @@ class Interface:
         search['candidateTypeCode'] = 'SW'  # statewide
         candidates_state_2020 = CandidateList(
             search,
+            cachePath=f'cache/2020/committees',
             fetchReports=False,  # avoids costly scraping operation
             filterStatuses=ACTIVE_STATUSES
         )
@@ -218,6 +235,7 @@ class Interface:
         search['candidateTypeCode'] = 'SW'  # statewide
         candidates_state_2020 = CandidateList(
             search,
+            cachePath=f'cache/2020/committees',
             fetchReports=True,
             fetchFullReports=False,  # avoids costly scraping operation
             filterStatuses=ACTIVE_STATUSES

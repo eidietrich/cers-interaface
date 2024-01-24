@@ -8,6 +8,7 @@ from dateutil.parser import parse
 
 import os
 import json
+import csv
 
 import re
 from bs4 import BeautifulSoup
@@ -483,7 +484,7 @@ class Report:
         if (text == ''):
             return pd.DataFrame()
         parsed = pd.read_csv(StringIO(
-            text), sep='|', on_bad_lines='warn', index_col=False)
+            text), sep='|', on_bad_lines='warn', index_col=False, quoting=csv.QUOTE_NONE)
         return parsed
 
     def _parse_html_get_row(self, table, label):
@@ -587,6 +588,8 @@ class Report:
 
     # TODO: Dedupe with cers_committees
     def _parse_address(self, raw):
+        if (raw == ''):
+            return '','','',''
         # Assumes address format '1008 Prospect Ave, Helena, MT 59601'
         # Edge cases will be a pain in the ass here
         address = raw.replace(
@@ -594,7 +597,6 @@ class Report:
         addressLn1 = (', ').join(address[0:len(address)-2])
         city = address[-2].strip()
         state_zip = address[-1].split(' ')
-        print(address, state_zip)
         state = state_zip[0]
         if (len(state_zip) > 1):
             zip_code = state_zip[1]
