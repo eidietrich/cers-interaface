@@ -72,12 +72,11 @@ class Interface:
                              cachePath=f'cache/{election_year}/candidates',
                              filterStatuses=filterStatuses)
 
-    def get_committee_by_name(self, name, **kwargs):
+    def get_committee_by_name(self, name, election_year, **kwargs):
         search = COMMITTEE_SEARCH_DEFAULT.copy()
         search['expendCommitteeName'] = name
         return CommitteeList(search,
-                             cachePath=f'cache/{election_year}/committees',
-                             fetchReports=kwargs['fetchReports'])
+                             cachePath=f'cache/{election_year}/committees')
 
     # Recipes
 

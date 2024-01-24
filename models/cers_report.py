@@ -512,11 +512,10 @@ class Report:
 
     def _parse_c7_table(self, raw):
         cleaned = []
+        if( raw.text == ""): return cleaned # null response
         for row in raw.json():
             addressLn1, city, state, zip_code = self._parse_address(
                 row['entityAddress'])
-            # Magic date conversion!
-            # date  = datetime.fromtimestamp(row['datePaid'] / 1000).strftime('%m/%d/%y')
             date = self._parse_date(row['datePaid'])
             if (row['cashAmt'] > 0 and row['inKindAmt'] > 0):
                 amount_type = 'Mixed'
