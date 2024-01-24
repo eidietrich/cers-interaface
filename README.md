@@ -4,6 +4,12 @@ A home-brewed API for Montana's [Campaign Electronic Reporting System](https://c
 
 Contact edietrich@montanafreepress.org with questions or bug reports.
 
+## Data
+
+Aggregate contribution and expenditure data for each race or category of race (e.g. legislative seats) we've collected so far is available in this repository at `cleaned/{year}/{race}`. These are .csv files that can be downloaded individually and opened with Microsoft Excel. The `committeees` race represents reported fundraising and spending by political action committees.
+
+This data should in principle match what is publicly available in CERS, but may be affected by data pipeline bugs we haven't yet caught or resolved. Additionally, the public data includes a number of wrinkles, such as refunds, candidate loans, in-kind donations and occasional data entry errors that need to be considered as it is interpreted.
+
 ## Data models
 
 CERS tracks two primary entities: `candidates`, individuals who are seeking public office, and `committees`, third-party organizations who required to report political spending under state law. See https://politicalpractices.mt.gov/Home/Forms for a list of forms.
