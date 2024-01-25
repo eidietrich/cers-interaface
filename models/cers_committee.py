@@ -140,7 +140,7 @@ class Committee:
         self.id = data['committeeId']
         self.name = data['committeeName']
         self.slug = str(self.id) + '-' + \
-            self.name.strip().replace(' ', '-').replace(',', '')
+            self.name.strip().replace(' ', '-').replace(',', '').replace('/','-')
         self.data = data
         self.finance_reports = []
 
