@@ -203,11 +203,16 @@ class Candidate:
 
     def list_reports(self):
         return self.raw_reports
+    
+    def parse_date(self, d):
+        parsed = datetime.now() # fallback
+        if d['report_end_date'] is not None: 
+            parsed = parse(d['report_end_date'])
+        return parsed
 
     def list_report_summaries(self):
         summaries = [c.summary for c in self.finance_reports]
-        summaries_sorted = sorted(
-            summaries, key=lambda i: parse(i['report_end_date']))
+        summaries_sorted = sorted(summaries, key=self.parse_date)
         return summaries_sorted
 
     def export(self, write_dir):
@@ -252,8 +257,7 @@ class Candidate:
             r.summary for r in self.finance_reports if r.type == 'C7E']
 
         summaries = c5_summaries + c7_summaries + c7e_summaries
-        summaries = sorted(
-            summaries, key=lambda i: parse(i['report_end_date']))
+        summaries = sorted(summaries, key=self.parse_date)
 
         pri_contributions = sum(s['Receipts']['primary'] for s in summaries)
         gen_contributions = sum(s['Receipts']['general'] for s in summaries)
