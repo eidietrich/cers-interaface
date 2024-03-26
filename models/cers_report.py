@@ -13,27 +13,8 @@ import csv
 import re
 from bs4 import BeautifulSoup
 
-# Hacky - Alternative reports for places where CERS is choking
-# id: filename: filePath (.csv downloaded from CERS on a good day)
-MANUAL_CACHES = {
-    # 46348: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-46348-cooney-q42019-contributions.csv',
-    # 45786: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-45786-cooney-q32019-contributions.csv',
-    # 46959: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-46959-cooney-q12020-contributions.csv',
-    # 47635: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-47635-cooney-apr2020-contributions.csv',
-    # 48320: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-48320-cooney-may2020-contributions.csv',
-    # 48513: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-48513-cooney-june2020-contribututions.csv',
-    # 50070: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50070-cooney-aug2020-contribututions.csv',
-    # 50595: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50595-cooney-sept2020-contribututions.csv',
-    # 51325: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-51325-cooney-oct2020-contribututions.csv',
-}
-MANUAL_SUMMARY_CACHES = {
-    # 48513: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-48513-cooney-june2020-summary.html',
-    # 50070: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50070-cooney-aug2020-summary.html',
-    # 50595: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-50595-cooney-sept2020-summary.html',
-    # 51325: 'scrapers/state-finance-reports/raw/Cooney-Mike--R/manual-51325-cooney-oct2020-summary.html',
-
-}
-
+from manual.config import MANUAL_CONTRIBUTION_CACHES
+from manual.config import MANUAL_SUMMARY_CACHES
 
 class Report:
     def __init__(self, data, cachePath, checkCache=True, writeCache=True, fetchFullReports=True):
@@ -57,8 +38,9 @@ class Report:
         elif (self.type == 'C4'):
             self._get_c4_data_from_scrape()
         elif (self.type == 'C5'):
-            if self.id in MANUAL_CACHES.keys():
-                # Files that I'm having a hard time downloading from CERS
+            if self.id in MANUAL_CONTRIBUTION_CACHES.keys():
+                # Files that are too big to reliably download from CERS
+                # Downloaded once separately and plugged into manual cache system as a workaround
                 self._get_c5_data_from_manual_cache()
             else:
                 self._get_c5_data_from_scrape()
@@ -97,7 +79,7 @@ class Report:
             self.unitemized_contributions = self._calc_unitemized_contributions()
         else:
             print(f'----- Actually, amendment found on {self.id}')
-            if self.id in MANUAL_CACHES.keys():
+            if self.id in MANUAL_CONTRIBUTION_CACHES.keys():
                 if (self.type != 'C5'):
                     print('Wrong report type')
                 self._get_c5_data_from_manual_cache()
@@ -153,13 +135,14 @@ class Report:
             self.unitemized_contributions = self._calc_unitemized_contributions()
 
     def _get_c5_data_from_manual_cache(self):
-        file = MANUAL_CACHES[self.id]
+        file = MANUAL_CONTRIBUTION_CACHES[self.id]
         print(f'Fetching manual cache {file}')
         self.summary = self._fetch_report_summary()
         if self.fetchFullReports:
-            self.contributions = pd.read_csv(
-                file, sep='|', on_bad_lines='warn', index_col=False)
-            self.expenditures = self._fetch_expenditures_schedule()
+            self.contributions = self._fetch_form_schedule(
+                'A', self.data['candidateName'])
+            self.expenditures = self._fetch_form_schedule(
+                'B', self.data['candidateName'])
             # TODO - move this to cleaning step?
             self.unitemized_contributions = self._calc_unitemized_contributions()
 
@@ -167,9 +150,6 @@ class Report:
         print(f'Fetching C5 {self.start_date}-{self.end_date} ({self.id})')
         self.summary = self._fetch_report_summary()
         if self.fetchFullReports:
-            # Refactor attempt
-            # self.contributions = self._fetch_contributions_schedule()
-            # self.expenditures = self._fetch_expenditures_schedule()
             self.contributions = self._fetch_form_schedule(
                 'A', self.data['candidateName'])
             self.expenditures = self._fetch_form_schedule(
@@ -458,24 +438,30 @@ class Report:
         report_id = self.id
         raw_text = ''
 
-        post_url = 'https://cers-ext.mt.gov/CampaignTracker/public/viewFinanceReport/prepareDownloadFileFromSearch'
-        get_url = 'https://cers-ext.mt.gov/CampaignTracker/public/viewFinanceReport/downloadFile'
-        post_payload = {
-            'reportId': report_id,  # This is from checkbox on candidate report page
-            'scheduleCode': schedule,  # A is contributions, # B is expenditures
-            'fname': name,  # Either candidate or committee name
-        }
-
-        session = requests.Session()
-        p = session.post(post_url, post_payload, timeout=120)
-        if 'fileName' in p.json():
-            r = session.get(get_url, params=p.json())
-            if r.text == '':
-                print('Empty file. Report ID:', report_id)
-            raw_text = r.text
+        if (schedule == 'A' and self.id in MANUAL_CONTRIBUTION_CACHES.keys()):
+            print(f'--- Contributions from cache ({self.id})')
+            path = MANUAL_CONTRIBUTION_CACHES[self.id]
+            with open(path, 'r') as f:
+                raw_text = f.read()
         else:
-            print(
-                f'No file for schedule {schedule}, {self.start_date}-{self.end_date}. Report ID:', report_id)
+            post_url = 'https://cers-ext.mt.gov/CampaignTracker/public/viewFinanceReport/prepareDownloadFileFromSearch'
+            get_url = 'https://cers-ext.mt.gov/CampaignTracker/public/viewFinanceReport/downloadFile'
+            post_payload = {
+                'reportId': report_id,  # This is from checkbox on candidate report page
+                'scheduleCode': schedule,  # A is contributions, # B is expenditures
+                'fname': name,  # Either candidate or committee name
+            }
+
+            session = requests.Session()
+            p = session.post(post_url, post_payload, timeout=120)
+            if 'fileName' in p.json():
+                r = session.get(get_url, params=p.json())
+                if r.text == '':
+                    print('Empty file. Report ID:', report_id)
+                raw_text = r.text
+            else:
+                print(
+                    f'No file for schedule {schedule}, {self.start_date}-{self.end_date}. Report ID:', report_id)
 
         parsed_text = self._parse_schedule_text(raw_text)
         return parsed_text
