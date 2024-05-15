@@ -18,7 +18,6 @@ paths = [
 dtype = {
     'Committee': 'string',
     'Candidate': 'string',
-    'Zip': 'string',
     'Entity Name': 'string',
     'First Name': 'string',
     'Last Name': 'string',
@@ -30,9 +29,8 @@ for path in paths:
     dfi = pd.read_csv(path, dtype=dtype)
     df = pd.concat([df, dfi])
 
-df[['Entity Name','First Name','Last Name','Addr Line1','City','State','Zip']].fillna("",inplace=True)
-df['Recipient'] = df['Committee'] + df['Candidate']
-df['Recipient'].fillna('', inplace=True)
+df[['Committee','Candidate','Entity Name','First Name','Last Name','Addr Line1','City','State']].fillna("",inplace=True)
+df['Recipient'] = df[['Committee', 'Candidate']].apply(lambda x : '{}{}'.format(x[0],x[1]).strip(), axis=1)
 df['Contributor'] = df[['Entity Name', 'First Name', 'Last Name']].apply(lambda x : '{}{} {}'.format(x[0],x[1],x[2]).strip(), axis=1)
 df['Address'] = df[['Addr Line1', 'City', 'State', 'Zip']].apply(lambda x : '{} {}, {} {}'.format(x[0],x[1],x[2],x[3]), axis=1)
 
