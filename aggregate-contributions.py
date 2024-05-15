@@ -22,6 +22,7 @@ dtype = {
     'Entity Name': 'string',
     'First Name': 'string',
     'Last Name': 'string',
+    'Amount': float,
 }
 
 df = pd.DataFrame()
@@ -29,10 +30,17 @@ for path in paths:
     dfi = pd.read_csv(path, dtype=dtype)
     df = pd.concat([df, dfi])
 
-df.fillna("",inplace=True)
+df[['Entity Name','First Name','Last Name','Addr Line1','City','State','Zip']].fillna("",inplace=True)
 df['Recipient'] = df['Committee'] + df['Candidate']
-df['Entity Name']
-df['Contributor'] = df[['Entity Name', 'First Name', 'Last Name']].apply(lambda x : '{}{} {}'.format(x[0],x[1],x[2]), axis=1)
+df['Contributor'] = df[['Entity Name', 'First Name', 'Last Name']].apply(lambda x : '{}{} {}'.format(x[0],x[1],x[2]).strip(), axis=1)
 df['Address'] = df[['Addr Line1', 'City', 'State', 'Zip']].apply(lambda x : '{} {}, {} {}'.format(x[0],x[1],x[2],x[3]), axis=1)
 
 df.to_csv('cleaned/2024/all-contributions.csv', index=False)
+
+print(len(df), 'contributions')
+print('$', df['Amount'].sum(), 'total')
+
+contributors = df.groupby('Contributor').agg({'Amount': sum})\
+    .sort_values('Amount', ascending=False)
+
+contributors.to_csv('cleaned/2024/contributor-totals.csv')
