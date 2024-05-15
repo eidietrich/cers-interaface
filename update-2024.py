@@ -17,13 +17,15 @@ STATEWIDE_RACE_CODES = {
     'sos': '193',
     'ag': '2',
     'opi': '245',
-    # 'auditor': , # None as of 1/8
+    'auditor': '244',
+    'supcoClerk': '10',
 }
 
 STATE_DISTRICT_RACE_CODES = {
     'supcoChief': '246',
     'supco3': '249',
     'psc2': '188',
+    'psc3': '189',
     'psc4': '190',
 }
 
