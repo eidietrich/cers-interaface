@@ -395,12 +395,12 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Mullen, Jesse  James",08/09/2023 to 09/30/2023,C5,08/14/2023,,Martha,,Tafoya,408 Locust St.,Anaconda,MT,59711.0,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
 "Mullen, Jesse  James",08/09/2023 to 09/30/2023,C5,08/14/2023,,Thomas,,Mullen,33 Maxville Rd,Philipsburg,MT,59858.0,,,Self,DAD,9,700.0,CA,,PM,700.0,0.0,,,,,N,,,,,N,Individual contributions
 "Mullen, Jesse  James",08/09/2023 to 09/30/2023,C5,08/14/2023,,Jami,,Woodman,1130 Waukesha Avenue,Helena,MT,59601.0,,,Realtor,self,9,700.0,CA,,PM,700.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",06/03/2024 to 06/03/2024,C7,06/03/24,"Christianson, Mike",,,,1720 76th St. NW,Burlington,ND,58722,,,CEO,business owner,Individual Contributions,790.0,CA,,Primary,790.0,0.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
-"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Eaton, Jacob L",,,,PO Box 81274,Billings,MT,59108,,,Chair,WDRP Management,Individual Contributions,790.0,CA,,General,0.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
-"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Cindy",,,,Box 16034 ,Missoula,MT,59808,,,Retired,Retired,Individual Contributions,790.0,CA,,Primary,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
-"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Cindy",,,,Box 16034 ,Missoula,MT,59808,,,Retired,Retired,Individual Contributions,790.0,CA,,General,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
-"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Jeff",,,,Box 16034,Missoula,MT,59808,,,Director,Streetsmart,Individual Contributions,790.0,CA,,General,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
-"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Jeff",,,,Box 16034,Missoula,MT,59808,,,Director,Streetsmart,Individual Contributions,790.0,CA,,Primary,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
+"Jacobsen, Christi  K",06/03/2024 to 06/03/2024,C7,06/03/24,"Christianson, Mike",,,,1720 76th St. NW,Burlington,ND,58722.0,,,CEO,business owner,Individual Contributions,790.0,CA,,Primary,790.0,0.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
+"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Eaton, Jacob L",,,,PO Box 81274,Billings,MT,59108.0,,,Chair,WDRP Management,Individual Contributions,790.0,CA,,General,0.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
+"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Cindy",,,,Box 16034 ,Missoula,MT,59808.0,,,Retired,Retired,Individual Contributions,790.0,CA,,Primary,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
+"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Cindy",,,,Box 16034 ,Missoula,MT,59808.0,,,Retired,Retired,Individual Contributions,790.0,CA,,General,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
+"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Jeff",,,,Box 16034,Missoula,MT,59808.0,,,Director,Streetsmart,Individual Contributions,790.0,CA,,General,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
+"Jacobsen, Christi  K",05/21/2024 to 05/21/2024,C7,05/21/24,"Hollenback, Jeff",,,,Box 16034,Missoula,MT,59808.0,,,Director,Streetsmart,Individual Contributions,790.0,CA,,Primary,790.0,790.0,,,0.0,,N,,,0.0,0.0,,Individual Contributions
 "Jacobsen, Christi  K",04/16/2024 to 05/14/2024,C5,04/30/2024,,Jon,T,Wigen,PO Box 196 ,Hobson,MT,59452.0,196.0,,Retired,Retired,9,50.0,CA,,GN,0.0,50.0,,,,,N,,,,,N,Individual contributions
 "Jacobsen, Christi  K",04/16/2024 to 05/14/2024,C5,04/30/2024,,Dan,,Draper,972 St Andrews Dr ,Bozeman,MT,59715.0,8764.0,,Retired,Retired,9,50.0,CA,,GN,0.0,50.0,,,,,N,,,,,N,Individual contributions
 "Jacobsen, Christi  K",04/16/2024 to 05/14/2024,C5,05/05/2024,,Steven,L,Atkin,PO Box 794,Frenchtown,MT,59834.0,,,Retired,Retired,9,100.0,CA,,GN,0.0,100.0,,,,,N,,,,,N,Individual contributions
@@ -456,60 +456,60 @@ Candidate,Reporting Period,Report Type,Date Paid,Entity Name,First Name,Middle I
 "Jacobsen, Christi  K",04/16/2024 to 05/14/2024,C5,04/20/2024,,Kim,M,Hawley,84 Conrad-Dupuyer Rd ,Conrad,MT,59425.0,9328.0,,Oil Producer,HAWLEY OIL CO,9,100.0,CA,,GN,0.0,100.0,,,,,N,,,,,N,Individual contributions
 "Jacobsen, Christi  K",04/16/2024 to 05/14/2024,C5,04/29/2024,,Fred,,Thomas,1000 S Burnt Fork Rd ,Stevensville,MT,59870.0,6658.0,,Insurance,Paywest ,9,100.0,CA,,GN,0.0,100.0,,,,,N,,,,,N,Individual contributions
 "Jacobsen, Christi  K",04/16/2024 to 05/14/2024,C5,04/17/2024,,Keith,,Baer,PMB 335 ,Missoula,MT,59801.0,,,CSR,DirecTV,9,50.0,CA,,GN,50.0,50.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/29/2024,,SCOTT,,CHESTER,405 EAST 13TH ST,LAUREL,MT,59044,,,Construction,AKIN,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/10/2024,,PHILLIP,,OLSEN,112 HITCHING POST RD,BOZEMAN,MT,59715,,,Business,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/16/2024,,MICHAEL,,SCHAER,2407 MONTANA AVE.,BILLINGS,MT,59101,,,Business Owner,Computers Unlimited,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/25/2024,,GAYLE,,LAMMERS,403 N. CENTER AVE.,HARDIN,MT,59034,,,COO,Lammers Trading Post,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,SOARES,,PATTI,7735 DRY CREEK RD,BELGRADE,MT,59714,,,Clerical,JESORARES,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CHRIS AND VICKI,,KOLSTAD,295 MT HWY 366,LEDGER,MT,59456,,,Farmer,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CORY,,SAMPSEN,21 BROTHERHOOD RD,DAGMAR,MT,59219,,,Farmer,self,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,BRETT,,HARRIS,300 15TH STREET SOUTH ,GREAT FALLS,MT,59405,,,Insurance Agent,Brett Harris Agency,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/22/2024,,TRENT,,SIZEMORE,PO BOX 81026,BILLINGS,MT,59108,,,Landman,Lonewolf Energy,9,300.0,CA,,PM,300.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,WENDY,,WILLIAMS,4715 VALLEY,HELENA,MT,59601,,,Nurse,State Fund,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/09/2024,,Scott,,Seilstad,1431 Hoosee Rd,Denton,MT,59430,,,Rancher,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/16/2024,,Michael and Marcia,,Wall,PO box 482,Canyon Creek,MT,59633,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,DAVID AND SANDRA,,SABEY,12201 TUKWILA INTL BLVD,SEATTLE,WA,98168,,,Retired,Retired,9,790.0,CA,,PM,790.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,RICHARD,,HARTE,PO BOX 6429,BOZEMAN,MT,59771,,,Retired,Retired,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,FREDERICK,,STATLER,139 GLACIER LILY,FLORENCE,MT,59833,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,GREG,,BARKUS,316 CHAPMAN LN,BIGFORK,MT,59911,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/27/2024,,DEE,,BROWN,PO BOX 190444,HUNGRY HORSE,MT,59919,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/08/2024,,JON,,JOHNSTON,172 SOLER RUN,KALISPELL,MT,59901,,,Retired,Retired,9,300.0,CA,,PM,300.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/27/2024,,MARILYN AND ED,,BARTLETT,8230 RANCH CLUB RD,MISSOULA,MT,59808,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/25/2024,,VANCE AND DEBBIE,,GILBRAITH,1913 14TH AVE. S,GREAT FALLS,MT,59405,,,Retired,Retired,9,250.0,CA,,PM,250.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,KEVIN,,HORTON,352 GRUNDY LANE,HAMILTON,MT,59840,,,Retired,Retired,9,250.0,CA,,PM,250.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,JAMES,,PETERSON ,501 PETERSON RANCH RD,WEATHERFORD,TX,76087,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/16/2024,,RICHARD AND LOIS,,MCBRIDE,4671 HARVEST LN,BILLINGS,MT,59106,,,Retired,Retired,9,75.0,CA,,PM,75.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,STUART,,REYNOLDS,570 ROAD 403 N,HAVRE,MT,59501,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,KEN,,MCCULLOCH,3350 MONIDA,BOZEMAN,MT,59718,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,DANA,,GLEASON,409 E. OLIVE ST,BOZEMAN,MT,59715,,,Retired,Retired,9,210.0,CA,,GN,0.0,210.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,MATT,,BRAINARD,PO BOX 879,FLORENCE,MT,59833,,,Retired,Retired,9,125.0,CA,,PM,125.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,DONALD AND RITA,,RICHMAN,PO BOX 774,HARLEM,MT,59526,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JEROME,,LOENDORF,21 N. HANNAFORD ST,HELENA,MT,59601,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,GREG AND ROXIE,,GOODE,1639 HWY 2 W,KALISPELL,MT,59901,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CHARLOTTE,,RESKILDSEN,710 JADE ST.,HELENA,MT,59601,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/17/2024,,CHERYL,,MARSHALL,465 COLD CREEK RD,GOLD CREEK,MT,59733,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/08/2024,,Jerry and Evelyn,,Ellner,4029 Towhee Dr,Calabasas,CA,91302,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/01/2024,,JAMES RUSSELL,,WILLIAMS,1705 Bridger Dr,Bozeman,MT,59715,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,WILLIAM AND MARLENE,,TASH,240 VISTA DR,DILLON,MT,59725,,,Retired,Retiree,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,DANA,,GLEASON,409 E. OLIVE ST,BOZEMAN,MT,59715,,,Retired,Retired,9,790.0,CA,,PM,790.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JOHN,,VANDEBERG,2043 SWITCHGRASS CT,HELENA,MT,59601,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CAROL,,NELSON,505 WOLF CREEK,BIGFORK,MT,59911,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JIM,,YOUNKIN,18450 MULLAN RD,FRENCHTOWN,MT,59834,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,ROBERT,,JOHNSON,246 SHORT OIL RD,MALTA,MT,59538,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/11/2024,,Morris,,Hallowell,PO Box1445,LIVINGSTON,MT,59047,,,Sales,Hallowell & Co Inc,9,790.0,CA,,PM,790.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/17/2024,,CHRISTI,,JACOBSEN,PO BOX 485,HELENA,MT,59624,,,Secretary of State,State of Montana,9,91.12,IK,GAS TO BUTTE ST. PATRICK'S DAY PARADE,PM,91.12,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/28/2024,,PAUL,,THOMAS,3636 HARRISON AVE,BUTTE,MT,59701,,,President,Thomas Inc,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,TONI,,DELZER,PO BOX 160347,BIG SKY,MT,59716,,,owner,DELZER DEVERSIFIED,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/09/2024,,KIRBY,,DASINGER,1932 Eastridge Dr,BILLINGS,MT,59102,,,Oil Guy,self,9,345.67,CA,,PM,345.67,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/19/2024,,PAT,,WALKER,155 PARADISE DR,LIVINGSTON,MT,59047,,,Electrical,TOTAL ELECTRICAL,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,LINDA,,EDER,PO BOX 301,DARBY,MT,59829,,,Housewife,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,Keith,,Baer,PMB 335 ,Missoula,MT,59801,,,CSR,Direct TV,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/12/2024,,Melissa,,Churla,31826 Scotch Pine Lane,Bigfork,MT,59911,,,Inventory Auditor,Costco,9,75.0,CA,,PM,75.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/13/2024,,Jeffrey,,Laporte,5202 Laree Ct,Missoula,MT,59803,,,PHYSCIAN ,Missoula Bone and Joint,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JAMES,,PLOYHAR,20 EDEN ACRES LN,GREAT FALLS,MT,59405,,,MINER-FARMER,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JERRY AND BETY JO,,HICKS,PO BOX 3239,MISSOULA,MT,59806,,,RE DEV AND MANAGEMENT,self,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/26/2024,Montana GOP,,,,P.O.Box 935,Helena,MT,59624,,,,,6,20000.0,CA,,PM,20000.0,0.0,,,,,N,,,,,N,Political party contributions
-"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/11/2024,WoodPAC,,,,PO Box 1967,MISSOULA,MT,59806,,,,,6,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Political party contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/29/2024,,SCOTT,,CHESTER,405 EAST 13TH ST,LAUREL,MT,59044.0,,,Construction,AKIN,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/10/2024,,PHILLIP,,OLSEN,112 HITCHING POST RD,BOZEMAN,MT,59715.0,,,Business,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/16/2024,,MICHAEL,,SCHAER,2407 MONTANA AVE.,BILLINGS,MT,59101.0,,,Business Owner,Computers Unlimited,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/25/2024,,GAYLE,,LAMMERS,403 N. CENTER AVE.,HARDIN,MT,59034.0,,,COO,Lammers Trading Post,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,SOARES,,PATTI,7735 DRY CREEK RD,BELGRADE,MT,59714.0,,,Clerical,JESORARES,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CHRIS AND VICKI,,KOLSTAD,295 MT HWY 366,LEDGER,MT,59456.0,,,Farmer,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CORY,,SAMPSEN,21 BROTHERHOOD RD,DAGMAR,MT,59219.0,,,Farmer,self,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,BRETT,,HARRIS,300 15TH STREET SOUTH ,GREAT FALLS,MT,59405.0,,,Insurance Agent,Brett Harris Agency,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/22/2024,,TRENT,,SIZEMORE,PO BOX 81026,BILLINGS,MT,59108.0,,,Landman,Lonewolf Energy,9,300.0,CA,,PM,300.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,WENDY,,WILLIAMS,4715 VALLEY,HELENA,MT,59601.0,,,Nurse,State Fund,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/09/2024,,Scott,,Seilstad,1431 Hoosee Rd,Denton,MT,59430.0,,,Rancher,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/16/2024,,Michael and Marcia,,Wall,PO box 482,Canyon Creek,MT,59633.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,DAVID AND SANDRA,,SABEY,12201 TUKWILA INTL BLVD,SEATTLE,WA,98168.0,,,Retired,Retired,9,790.0,CA,,PM,790.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,RICHARD,,HARTE,PO BOX 6429,BOZEMAN,MT,59771.0,,,Retired,Retired,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,FREDERICK,,STATLER,139 GLACIER LILY,FLORENCE,MT,59833.0,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,GREG,,BARKUS,316 CHAPMAN LN,BIGFORK,MT,59911.0,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/27/2024,,DEE,,BROWN,PO BOX 190444,HUNGRY HORSE,MT,59919.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/08/2024,,JON,,JOHNSTON,172 SOLER RUN,KALISPELL,MT,59901.0,,,Retired,Retired,9,300.0,CA,,PM,300.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/27/2024,,MARILYN AND ED,,BARTLETT,8230 RANCH CLUB RD,MISSOULA,MT,59808.0,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/25/2024,,VANCE AND DEBBIE,,GILBRAITH,1913 14TH AVE. S,GREAT FALLS,MT,59405.0,,,Retired,Retired,9,250.0,CA,,PM,250.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,KEVIN,,HORTON,352 GRUNDY LANE,HAMILTON,MT,59840.0,,,Retired,Retired,9,250.0,CA,,PM,250.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,JAMES,,PETERSON ,501 PETERSON RANCH RD,WEATHERFORD,TX,76087.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/16/2024,,RICHARD AND LOIS,,MCBRIDE,4671 HARVEST LN,BILLINGS,MT,59106.0,,,Retired,Retired,9,75.0,CA,,PM,75.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,STUART,,REYNOLDS,570 ROAD 403 N,HAVRE,MT,59501.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,KEN,,MCCULLOCH,3350 MONIDA,BOZEMAN,MT,59718.0,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,DANA,,GLEASON,409 E. OLIVE ST,BOZEMAN,MT,59715.0,,,Retired,Retired,9,210.0,CA,,GN,0.0,210.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,MATT,,BRAINARD,PO BOX 879,FLORENCE,MT,59833.0,,,Retired,Retired,9,125.0,CA,,PM,125.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,DONALD AND RITA,,RICHMAN,PO BOX 774,HARLEM,MT,59526.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JEROME,,LOENDORF,21 N. HANNAFORD ST,HELENA,MT,59601.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,GREG AND ROXIE,,GOODE,1639 HWY 2 W,KALISPELL,MT,59901.0,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CHARLOTTE,,RESKILDSEN,710 JADE ST.,HELENA,MT,59601.0,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/17/2024,,CHERYL,,MARSHALL,465 COLD CREEK RD,GOLD CREEK,MT,59733.0,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/08/2024,,Jerry and Evelyn,,Ellner,4029 Towhee Dr,Calabasas,CA,91302.0,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/01/2024,,JAMES RUSSELL,,WILLIAMS,1705 Bridger Dr,Bozeman,MT,59715.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,WILLIAM AND MARLENE,,TASH,240 VISTA DR,DILLON,MT,59725.0,,,Retired,Retiree,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,DANA,,GLEASON,409 E. OLIVE ST,BOZEMAN,MT,59715.0,,,Retired,Retired,9,790.0,CA,,PM,790.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JOHN,,VANDEBERG,2043 SWITCHGRASS CT,HELENA,MT,59601.0,,,Retired,Retired,9,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,CAROL,,NELSON,505 WOLF CREEK,BIGFORK,MT,59911.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JIM,,YOUNKIN,18450 MULLAN RD,FRENCHTOWN,MT,59834.0,,,Retired,Retired,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,ROBERT,,JOHNSON,246 SHORT OIL RD,MALTA,MT,59538.0,,,Retired,Retired,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/11/2024,,Morris,,Hallowell,PO Box1445,LIVINGSTON,MT,59047.0,,,Sales,Hallowell & Co Inc,9,790.0,CA,,PM,790.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/17/2024,,CHRISTI,,JACOBSEN,PO BOX 485,HELENA,MT,59624.0,,,Secretary of State,State of Montana,9,91.12,IK,GAS TO BUTTE ST. PATRICK'S DAY PARADE,PM,91.12,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/28/2024,,PAUL,,THOMAS,3636 HARRISON AVE,BUTTE,MT,59701.0,,,President,Thomas Inc,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,TONI,,DELZER,PO BOX 160347,BIG SKY,MT,59716.0,,,owner,DELZER DEVERSIFIED,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/09/2024,,KIRBY,,DASINGER,1932 Eastridge Dr,BILLINGS,MT,59102.0,,,Oil Guy,self,9,345.67,CA,,PM,345.67,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/19/2024,,PAT,,WALKER,155 PARADISE DR,LIVINGSTON,MT,59047.0,,,Electrical,TOTAL ELECTRICAL,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,LINDA,,EDER,PO BOX 301,DARBY,MT,59829.0,,,Housewife,self,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/15/2024,,Keith,,Baer,PMB 335 ,Missoula,MT,59801.0,,,CSR,Direct TV,9,50.0,CA,,PM,50.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/12/2024,,Melissa,,Churla,31826 Scotch Pine Lane,Bigfork,MT,59911.0,,,Inventory Auditor,Costco,9,75.0,CA,,PM,75.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/13/2024,,Jeffrey,,Laporte,5202 Laree Ct,Missoula,MT,59803.0,,,PHYSCIAN ,Missoula Bone and Joint,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JAMES,,PLOYHAR,20 EDEN ACRES LN,GREAT FALLS,MT,59405.0,,,MINER-FARMER,self,9,100.0,CA,,PM,100.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/05/2024,,JERRY AND BETY JO,,HICKS,PO BOX 3239,MISSOULA,MT,59806.0,,,RE DEV AND MANAGEMENT,self,9,500.0,CA,,PM,500.0,0.0,,,,,N,,,,,N,Individual contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,03/26/2024,Montana GOP,,,,P.O.Box 935,Helena,MT,59624.0,,,,,6,20000.0,CA,,PM,20000.0,0.0,,,,,N,,,,,N,Political party contributions
+"Jacobsen, Christi  K",03/16/2024 to 04/15/2024,C5,04/11/2024,WoodPAC,,,,PO Box 1967,MISSOULA,MT,59806.0,,,,,6,200.0,CA,,PM,200.0,0.0,,,,,N,,,,,N,Political party contributions
 "Jacobsen, Christi  K",01/01/2024 to 03/15/2024,C5,01/22/2024,,Ed and Sharon,,Greef,PO Box 1327,Florence ,MT,59833,,,Retired,Retired,9,100.0,CA,,GN,0.0,100.0,,,,,N,,,,,N,Individual contributions
 "Jacobsen, Christi  K",01/01/2024 to 03/15/2024,C5,02/22/2024,,Jeffrey,,Johnson,4525 Upland Dr,Billings,MT,59106,,,Sales,Rocky Merchant Services,9,500.0,CA,,GN,0.0,500.0,,,,,N,,,,,N,Individual contributions
 "Jacobsen, Christi  K",01/01/2024 to 03/15/2024,C5,01/22/2024,,NATHAN AND BERNADINE,,JACOBSEN,11 PIONEER CR,MILES CITY,MT,59301,,,Retired,Retired,9,50.0,CA,,GN,0.0,50.0,,,,,N,,,,,N,Individual contributions
