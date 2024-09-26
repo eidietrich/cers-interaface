@@ -453,7 +453,7 @@ class Report:
             }
 
             session = requests.Session()
-            p = session.post(post_url, post_payload, timeout=240)
+            p = session.post(post_url, post_payload, timeout=480)
             if 'fileName' in p.json():
                 r = session.get(get_url, params=p.json())
                 if r.text == '':
